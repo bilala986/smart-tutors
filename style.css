@@ -102,7 +102,7 @@ input, select {
 * {
     text-decoration: none;
     font-family: 'Montserrat';
-    color: #1A237E;
+    color: seashell;
 }
 
 .arrow {
@@ -211,7 +211,6 @@ header {
     width: 100%;
     height: auto;
     background-color: rgba(0, 145, 145, 1);
-
     padding-bottom: 50px;
 }
 
@@ -243,6 +242,7 @@ header nav ul li {
 
 header nav ul li a {
     font-size: 40px;
+    color: #1A237E;
     transition: all 0.3s ease; /* Smooth transition for size and color */
 }
 
@@ -792,9 +792,54 @@ main .banner h4:hover {
 
 
 
+/* *************************************** FOOTER - MOBILE *********************************************** */
 
+footer {
+    background-color: rgb(0, 66, 66);
+    height: auto;
+}
 
+footer a img {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
 
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+}
+
+footer nav ul li {
+    padding: 40px 35px;
+}
+
+footer nav ul li a {
+    font-size: 50px;
+    color: seashell;
+    transition: all 0.3s ease; /* Smooth transition for size and color */
+}
+
+footer nav ul li a:hover {
+    font-size: 42px;
+    color: darkred;
+}
+
+footer .phone-number {
+    text-align: center;
+    color: seashell;
+    font-size: 30px;
+    padding: 150px 0;
+}
+
+footer .copyright {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 25px;
+    font-size: 12.5px;
+}
 
 
 
