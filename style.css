@@ -210,7 +210,7 @@ main .image4 h1 {
 header {
     width: 100%;
     height: auto;
-    background-color: rgba(0, 145, 145, 1);
+    background-color: #D6E4F0;
     padding-bottom: 50px;
 }
 
@@ -317,7 +317,7 @@ main .banner h4:hover {
 /* *************************************** MAIN 2 - MOBILE *********************************************** */
 
 .main2 {
-    background-color: rgba(0, 96, 96, 0.9);
+    background-color: rgba(55, 98, 166, 0.9);
     padding-bottom: 150px;
 }
 
@@ -333,7 +333,7 @@ main .banner h4:hover {
     padding: 0 100px;
     font-size: 30px;
     color: white;
-    line-height: 125px;
+    line-height: 75px;
     font-weight: normal;
     padding-bottom: 75px;
 }
@@ -341,7 +341,7 @@ main .banner h4:hover {
 .main2 .box-link {
     display: block;
     margin: 0 auto;
-    background-color: rgba(0, 76, 76, 1);
+    background-color: rgba(13, 38, 76, 1);
     text-align: center;
     width: 45%;
     height: auto;
@@ -349,14 +349,14 @@ main .banner h4:hover {
     font-size: 45px;
     color: white;
     border-radius: 10px;
-    box-shadow: 3px 3px rgba(0, 50, 0, 1);
+    box-shadow: 4px 4px rgba(0, 0, 20, 1);
     font-weight: bold;
     letter-spacing: 2px;
     transition: all 0.3s ease;
 }
 
 .main2 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.4);
+    background-color: rgba(0, 76, 76, 0.3);
     width: 46%;
     padding: 65px;    
     font-size: 47px;
@@ -382,7 +382,7 @@ main .banner h4:hover {
 /* *************************************** MAIN 3 - MOBILE *********************************************** */
 
 .main3 {
-    background-color: rgba(0, 125, 125, 0.9);
+    background-color: rgba(45, 78, 146, 0.9);
     padding-bottom: 150px;
 }
 
@@ -398,7 +398,7 @@ main .banner h4:hover {
     padding: 0 100px;
     font-size: 30px;
     color: white;
-    line-height: 125px;
+    line-height: 75px;
     font-weight: normal;
     padding-bottom: 75px;
 }
@@ -406,7 +406,7 @@ main .banner h4:hover {
 .main3 .box-link {
     display: block;
     margin: 0 auto;
-    background-color: rgba(0, 110, 110, 1);
+    background-color: rgba(13, 38, 76, 1);
     text-align: center;
     width: 45%;
     height: auto;
@@ -414,14 +414,14 @@ main .banner h4:hover {
     font-size: 45px;
     color: white;
     border-radius: 10px;
-    box-shadow: 3px 3px rgba(0, 75, 0, 1);
+    box-shadow: 4px 4px rgba(0, 0, 20, 1);
     font-weight: bold;
     letter-spacing: 2px;
     transition: all 0.3s ease;
 }
 
 .main3 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.4);
+    background-color: rgba(0, 76, 76, 0.3);
     width: 46%;
     padding: 65px;    
     font-size: 47px;
@@ -439,7 +439,7 @@ main .banner h4:hover {
 /* *************************************** MAIN 4 - MOBILE *********************************************** */
 
 .main4 {
-    background-color: rgba(0, 96, 96, 0.9);
+    background-color: rgba(55, 98, 166, 0.9);
     padding-bottom: 150px;
 }
 
@@ -456,7 +456,7 @@ main .banner h4:hover {
     padding: 0 100px;
     font-size: 30px;
     color: white;
-    line-height: 125px;
+    line-height: 75px;
     font-weight: normal;
     padding-bottom: 75px;
 }
@@ -464,7 +464,7 @@ main .banner h4:hover {
 .main4 .box-link {
     display: block;
     margin: 0 auto;
-    background-color: rgba(0, 110, 110, 1);
+    background-color: rgba(13, 38, 76, 1);
     text-align: center;
     width: 45%;
     height: auto;
@@ -472,14 +472,14 @@ main .banner h4:hover {
     font-size: 45px;
     color: white;
     border-radius: 10px;
-    box-shadow: 3px 3px rgba(0, 75, 0, 1);
+    box-shadow: 4px 4px rgba(0, 0, 20, 1);
     font-weight: bold;
     letter-spacing: 2px;
     transition: all 0.3s ease;
 }
 
 .main4 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.4);
+    background-color: rgba(0, 76, 76, 0.3);
     width: 46%;
     padding: 65px;    
     font-size: 47px;
@@ -491,7 +491,7 @@ main .banner h4:hover {
 /* *************************************** MAIN 5 - MOBILE *********************************************** */
 
 .main5 {
-    background-color: rgba(0, 125, 125, 0.9);
+    background-color: rgba(45, 78, 146, 0.9);
     padding-bottom: 150px;
 }
 
@@ -500,7 +500,7 @@ main .banner h4:hover {
     padding: 150px 30px 100px 30px;
     font-size: 40px;
     color: white;
-    line-height: 115px;
+    line-height: 75px;
 }
 
 .slideshow {
@@ -522,12 +522,13 @@ main .banner h4:hover {
     min-width: 100%;
     padding: 50px;
     box-sizing: border-box;
-    background-color: rgba(200, 235, 235, 0.9);
+    background-color: rgba(155, 180, 255, 0.9);
 }
 
 .slide h3 {
     margin: 10px 0;
-    font-size: 30px
+    font-size: 30px;
+    color: rgb(0, 20, 75);
 }
 
 .slide p {
@@ -591,7 +592,7 @@ main .banner h4:hover {
 .main5 .box-link {
     display: block;
     margin: 0 auto;
-    background-color: rgba(0, 110, 110, 1);
+    background-color: rgba(13, 38, 76, 1);
     text-align: center;
     width: 45%;
     height: auto;
@@ -600,7 +601,7 @@ main .banner h4:hover {
     font-size: 45px;
     color: white;
     border-radius: 10px;
-    box-shadow: 3px 3px rgba(0, 75, 0, 1);
+    box-shadow: 4px 4px rgba(0, 0, 20, 1);
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 65px;
@@ -608,7 +609,7 @@ main .banner h4:hover {
 }
 
 .main5 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.4);
+    background-color: rgba(0, 76, 76, 0.3);
     width: 46%;
     padding: 65px;    
     font-size: 47px;
@@ -622,7 +623,7 @@ main .banner h4:hover {
 /* *************************************** MAIN 6 - MOBILE *********************************************** */
 
 .main6 {
-    background-color: rgba(0, 96, 96, 0.9);
+    background-color: rgba(55, 98, 166, 0.9);
     padding-bottom: 150px;
 }
 
@@ -638,7 +639,7 @@ main .banner h4:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: rgb(100, 155, 155);
+    background-color: rgba(135, 158, 226, 1);
     padding: 50px;
     width: 80%;
     margin: 0 auto;
@@ -682,7 +683,7 @@ main .banner h4:hover {
 }
 
 .contact-form button {
-    background-color: rgb(0, 96, 96);
+    background-color: rgba(100, 115, 235, 1);
     color: white;
     margin-top: 75px;
     margin-bottom: 75px;
@@ -690,12 +691,13 @@ main .banner h4:hover {
     border-radius: 10px;
     cursor: pointer;
     font-size: 40px;
+    box-shadow: 4px 4px rgba(0, 0, 20, 1);
     width: 50%;
     transition: all 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: rgba(0, 76, 76, 0.4);
+    background-color: rgba(0, 76, 76, 0.3);
     width: 52%;
     padding: 65px;    
     font-size: 42px;
@@ -719,9 +721,9 @@ main .banner h4:hover {
 
 .main7 h2 {
     text-align: center;
-    padding: 150px 30px 100px 30px;
+    padding: 250px 30px 100px 30px;
     font-size: 50px;
-    color: rgba(0, 36, 36, 1);
+    color: rgba(35, 58, 126, 1);
     line-height: 115px;
 }
 
@@ -734,7 +736,7 @@ main .banner h4:hover {
 }
 
 .main7 .branch-box .branches {
-    background-color: rgba(0, 96, 96, 0.9);
+    background-color: rgba(135, 158, 226, 0.9);
     height: auto;
     width: 80%;
     padding: 50px;
@@ -771,7 +773,7 @@ main .banner h4:hover {
     font-size: 40px;
     color: #fff;
     font-weight: 500;
-    background-color: rgb(0, 66, 66);
+    background-color: rgba(100, 115, 235, 1);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
@@ -781,7 +783,7 @@ main .banner h4:hover {
 }
 
 .main7 .branch-box .branches section .google-maps-link:hover {
-    background-color: rgba(0, 76, 76, 0.4);
+    background-color: rgba(0, 76, 76, 0.3);
     padding: 55px;    
     font-size: 42px;
     border: 5px solid lightgray;
@@ -795,7 +797,7 @@ main .banner h4:hover {
 /* *************************************** FOOTER - MOBILE *********************************************** */
 
 footer {
-    background-color: rgb(0, 66, 66);
+    background-color: rgba(15, 28, 76, 1);
     height: auto;
 }
 
@@ -826,11 +828,14 @@ footer nav ul li a:hover {
     color: darkred;
 }
 
-footer .phone-number {
+footer .contact-footer {
     text-align: center;
-    color: seashell;
-    font-size: 30px;
-    padding: 150px 0;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+footer .contact-footer p {
+    padding: 20px;
 }
 
 footer .copyright {
