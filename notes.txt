@@ -1,0 +1,7 @@
+nav elements:
+- Logo
+- About Us (always show)
+- Become a Student
+- Become a Tutor
+- Classes (always show)
+- Book a free Assessment (on the side)

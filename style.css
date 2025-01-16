@@ -1,0 +1,812 @@
+/*RESET STYLESHEET*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+/* *************************************** MY CODE *************************************************** */
+
+* {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #1A237E;
+}
+
+.arrow {
+    padding: 0 20px 0 10px;
+    color: white;
+}
+
+
+/* *************************************** BETWEEN IMAGES - MOBILE *************************************** */
+
+/* IMAGE 1 */
+
+main .image1 {
+    height: 900px;
+    width: 100%;
+    background-image: url(img/teaching4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+main .image1 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 7px 7px black;
+    padding: 5% 50px 0 50px;
+}
+
+
+/* IMAGE 2 */
+
+main .image2 {
+    height: 900px;
+    width: 100%;
+    background-image: url(img/teaching6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+main .image2 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    line-height: 75px;
+    color: white;
+    text-shadow: 7px 7px black;
+    padding: 10% 50px 0 50px;
+}
+
+
+/* IMAGE 3 */
+
+main .image3 {
+    height: 900px;
+    width: 100%;
+    background-image: url(img/teaching7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+main .image3 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    line-height: 75px;
+    color: white;
+    text-shadow: 7px 7px black;
+    padding: 10% 50px 0 50px;
+}
+
+
+/* IMAGE 4 */
+
+main .image4 {
+    height: 900px;
+    width: 100%;
+    background-image: url(img/teaching10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+main .image4 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    line-height: 75px;
+    color: white;
+    text-shadow: 7px 7px black;
+    padding: 10% 50px 0 50px;
+}
+
+
+
+/* *************************************** HEADER - MOBILE *********************************************** */
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 145, 145, 1);
+
+    padding-bottom: 50px;
+}
+
+header a img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 125px;
+    transition: all 0.3s ease;
+}
+
+header a img:hover {
+    height: 130px;
+}
+
+header nav {
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+}
+
+header nav ul li {
+    padding: 40px 35px;
+}
+
+header nav ul li a {
+    font-size: 40px;
+    transition: all 0.3s ease; /* Smooth transition for size and color */
+}
+
+header nav ul li a:hover {
+    font-size: 42px;
+    color: darkred;
+}
+
+
+
+/* *************************************** BANNER - MOBILE *********************************************** */
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1; /* Makes sure the video is behind other content */
+}
+
+
+
+/* *************************************** BANNER - MOBILE *********************************************** */
+
+main .banner {
+    padding-top: 75px;
+    background-image: url(img/teaching1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    text-align: right;
+}
+
+main .banner h1 {
+    padding: 15% 55px 0 0;
+    font-size: 65px;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+main .banner h4 {
+    margin: 30px 55px 0 55%;
+    padding: 15px;
+    background-color: rgba(0, 76, 153, 0.8);
+    border-radius: 10px;
+    box-shadow: 3px 3px darkblue;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    line-height: 40px;
+    transition: all 0.3s ease;
+}
+
+main .banner h4:hover {
+    background-color: rgb(0, 51, 102);
+    border-radius: 20px;
+    font-size: 32px;
+    box-shadow: 0px 0px;
+    
+}
+
+
+
+
+
+
+
+/* *************************************** MAIN 2 - MOBILE *********************************************** */
+
+.main2 {
+    background-color: rgba(0, 96, 96, 0.9);
+    padding-bottom: 150px;
+}
+
+.main2 h2 {
+    text-align: center;
+    padding: 150px 0 100px 0;
+    font-size: 40px;
+    color: white;
+}
+
+.main2 h4 {
+    text-align: justify;
+    padding: 0 100px;
+    font-size: 30px;
+    color: white;
+    line-height: 125px;
+    font-weight: normal;
+    padding-bottom: 75px;
+}
+
+.main2 .box-link {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0, 76, 76, 1);
+    text-align: center;
+    width: 45%;
+    height: auto;
+    padding: 60px;    
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 50, 0, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.main2 .box-link:hover {
+    background-color: rgba(0, 76, 76, 0.4);
+    width: 46%;
+    padding: 65px;    
+    font-size: 47px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** MAIN 3 - MOBILE *********************************************** */
+
+.main3 {
+    background-color: rgba(0, 125, 125, 0.9);
+    padding-bottom: 150px;
+}
+
+.main3 h2 {
+    text-align: center;
+    padding: 150px 0 100px 0;
+    font-size: 40px;
+    color: white;
+}
+
+.main3 h4 {
+    text-align: justify;
+    padding: 0 100px;
+    font-size: 30px;
+    color: white;
+    line-height: 125px;
+    font-weight: normal;
+    padding-bottom: 75px;
+}
+
+.main3 .box-link {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0, 110, 110, 1);
+    text-align: center;
+    width: 45%;
+    height: auto;
+    padding: 60px;    
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 75, 0, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.main3 .box-link:hover {
+    background-color: rgba(0, 76, 76, 0.4);
+    width: 46%;
+    padding: 65px;    
+    font-size: 47px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/* *************************************** MAIN 4 - MOBILE *********************************************** */
+
+.main4 {
+    background-color: rgba(0, 96, 96, 0.9);
+    padding-bottom: 150px;
+}
+
+.main4 h2 {
+    text-align: center;
+    padding: 150px 30px 100px 30px;
+    font-size: 40px;
+    color: white;
+    line-height: 115px;
+}
+
+.main4 h4 {
+    text-align: justify;
+    padding: 0 100px;
+    font-size: 30px;
+    color: white;
+    line-height: 125px;
+    font-weight: normal;
+    padding-bottom: 75px;
+}
+
+.main4 .box-link {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0, 110, 110, 1);
+    text-align: center;
+    width: 45%;
+    height: auto;
+    padding: 60px;    
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 75, 0, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.main4 .box-link:hover {
+    background-color: rgba(0, 76, 76, 0.4);
+    width: 46%;
+    padding: 65px;    
+    font-size: 47px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+
+/* *************************************** MAIN 5 - MOBILE *********************************************** */
+
+.main5 {
+    background-color: rgba(0, 125, 125, 0.9);
+    padding-bottom: 150px;
+}
+
+.main5 h2 {
+    text-align: center;
+    padding: 150px 30px 100px 30px;
+    font-size: 40px;
+    color: white;
+    line-height: 115px;
+}
+
+.slideshow {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgba(200, 235, 235, 0.9);
+}
+
+.slide h3 {
+    margin: 10px 0;
+    font-size: 30px
+}
+
+.slide p {
+    line-height: 2;
+    color: #333;
+    text-align: justify;
+    padding: 0 35px;
+    font-size: 25px;
+}
+
+.stars {
+    color: gold;
+    margin: 5px 0;
+    padding: 25px 0;
+    font-size: 50px;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls button {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.controls button:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.dots {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #333;
+}
+
+
+.main5 .box-link {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(0, 110, 110, 1);
+    text-align: center;
+    width: 45%;
+    height: auto;
+    padding: 60px;
+    margin-top: 100px;
+    font-size: 45px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 75, 0, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 65px;
+    transition: all 0.3s ease;
+}
+
+.main5 .box-link:hover {
+    background-color: rgba(0, 76, 76, 0.4);
+    width: 46%;
+    padding: 65px;    
+    font-size: 47px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+
+
+
+/* *************************************** MAIN 6 - MOBILE *********************************************** */
+
+.main6 {
+    background-color: rgba(0, 96, 96, 0.9);
+    padding-bottom: 150px;
+}
+
+.main6 h2 {
+    text-align: center;
+    padding: 150px 0 100px 0;
+    font-size: 40px;
+    color: white;
+    line-height: 115px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(100, 155, 155);
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.contact-form label, input, textarea, button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form label {
+    padding: 75px 0 25px 0;
+}
+
+.contact-form input {
+    height: 100px;
+}
+
+.contact-form label{
+    font-weight: 500;
+    color: black;
+    font-size: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 45px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 3px 3px rgba (0, 123, 255, 0.3);
+}
+
+.contact-form button {
+    background-color: rgb(0, 96, 96);
+    color: white;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    width: 50%;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: rgba(0, 76, 76, 0.4);
+    width: 52%;
+    padding: 65px;    
+    font-size: 42px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* *************************************** MAIN 7 - MOBILE *********************************************** */
+
+.main7 {
+    background-image: url(img/location.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 150px;
+}
+
+.main7 h2 {
+    text-align: center;
+    padding: 150px 30px 100px 30px;
+    font-size: 50px;
+    color: rgba(0, 36, 36, 1);
+    line-height: 115px;
+}
+
+.main7 .branch-box {
+    display: flex;
+    flex-direction: column; /* Aligns the divs vertically */
+    align-items: center; /* Centers the items horizontally within the container */
+    gap: 30px; /* Adds space between the two divs */
+    margin: 0 auto;
+}
+
+.main7 .branch-box .branches {
+    background-color: rgba(0, 96, 96, 0.9);
+    height: auto;
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main7 .branch-box .branches h3, h4 {
+    color: seashell;
+    text-align: center;    
+}
+
+.main7 .branch-box .branches h3 {
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+.main7 .branch-box .branches section {
+    margin-top: 30px;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.main7 .branch-box .branches section h4 {
+    padding: 30px;
+}
+
+.main7 .branch-box .branches section .google-maps-link {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgb(0, 66, 66);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    transition: all 0.3s ease;
+}
+
+.main7 .branch-box .branches section .google-maps-link:hover {
+    background-color: rgba(0, 76, 76, 0.4);
+    padding: 55px;    
+    font-size: 42px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
