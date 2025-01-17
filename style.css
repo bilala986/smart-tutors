@@ -208,6 +208,101 @@ main .image4 h1 {
 }
 
 
+/* *************************************** BETWEEN IMAGES - MOBILE *************************************** */
+
+@media only screen and (min-width: 768px) {
+    /* IMAGE 1 */
+
+    main .image1 {
+        height: 500px;
+        width: 100%;
+        background-image: url(img/teaching4.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+    }
+
+    main .image1 h1 {
+        text-align: center;
+        align-content: center;
+        font-size: 45px;
+        color: white;
+        text-shadow: 7px 7px black;
+        padding: 10% 50px 0 50px;
+    }
+    
+    
+    
+    /* IMAGE 2 */
+
+    main .image2 {
+        height: 500px;
+        width: 100%;
+        background-image: url(img/teaching6.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+    }
+
+    main .image2 h1 {
+        text-align: center;
+        align-content: center;
+        font-size: 45px;
+        line-height: 75px;
+        color: white;
+        text-shadow: 7px 7px black;
+        padding: 0 50px;
+    }
+    
+    
+    /* IMAGE 3 */
+
+    main .image3 {
+        height: 500px;
+        width: 100%;
+        background-image: url(img/teaching7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+    }
+
+    main .image3 h1 {
+        text-align: center;
+        align-content: center;
+        font-size: 45px;
+        line-height: 75px;
+        color: white;
+        text-shadow: 7px 7px black;
+        padding: 0 50px;
+    }
+    
+    
+    /* IMAGE 4 */
+
+    main .image4 {
+        height: 500px;
+        width: 100%;
+        background-image: url(img/teaching10.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+    }
+
+    main .image4 h1 {
+        text-align: center;
+        align-content: center;
+        font-size: 45px;
+        line-height: 75px;
+        color: white;
+        text-shadow: 7px 7px black;
+        padding: 0 50px 0 50px;
+    }
+
+}
 
 /* *************************************** HEADER - MOBILE *********************************************** */
 
@@ -298,7 +393,7 @@ header nav ul li a:hover {
     }
 }
 
-/* *************************************** BANNER - MOBILE *********************************************** */
+/* *************************************** BACKGROUND BODY *********************************************** */
 
 #background-video {
     position: fixed;
@@ -422,15 +517,53 @@ main .banner h4 a:hover {
 
 
 
+/* *************************************** MAIN 2 - TABLET *********************************************** */
 
+@media only screen and (min-width: 768px) {
+    
+    .main2 h2 {
+        text-align: center;
+        padding: 150px 0 100px 0;
+        font-size: 35px;
+        color: white;
+    }
 
+    .main2 h4 {
+        text-align: justify;
+        padding: 0 100px;
+        font-size: 25px;
+        color: white;
+        line-height: 75px;
+        font-weight: normal;
+        padding-bottom: 75px;
+    }
+    
+    .main2 .box-link {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(13, 38, 76, 1);
+        text-align: center;
+        width: 45%;
+        height: auto;
+        padding: 50px;    
+        font-size: 35px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px rgba(0, 0, 20, 1);
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+    }
 
-
-
-
-
-
-
+    .main2 .box-link:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        width: 46%;
+        padding: 55px;    
+        font-size: 37px;
+        border: 5px solid lightgray;
+        border-radius: 20px;
+    }
+}
 
 /* *************************************** MAIN 3 - MOBILE *********************************************** */
 
@@ -484,7 +617,53 @@ main .banner h4 a:hover {
 
 
 
+/* *************************************** MAIN 3 - TABLET *********************************************** */
 
+@media only screen and (min-width: 768px) {
+    
+    .main3 h2 {
+        text-align: center;
+        padding: 150px 0 100px 0;
+        font-size: 35px;
+        color: white;
+    }
+
+    .main3 h4 {
+        text-align: justify;
+        padding: 0 100px;
+        font-size: 25px;
+        color: white;
+        line-height: 75px;
+        font-weight: normal;
+        padding-bottom: 75px;
+    }
+    
+    .main3 .box-link {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(13, 38, 76, 1);
+        text-align: center;
+        width: 45%;
+        height: auto;
+        padding: 50px;    
+        font-size: 35px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px rgba(0, 0, 20, 1);
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .main3 .box-link:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        width: 46%;
+        padding: 55px;    
+        font-size: 37px;
+        border: 5px solid lightgray;
+        border-radius: 20px;
+    }
+}
 
 
 
@@ -541,6 +720,56 @@ main .banner h4 a:hover {
 }
 
 
+/* *************************************** MAIN 4 - TABLET *********************************************** */
+
+@media only screen and (min-width: 768px) {
+    
+    .main4 h2 {
+        text-align: center;
+        padding: 150px 30px 100px 30px;
+        font-size: 35px;
+        color: white;
+        line-height: 115px;
+    }
+
+    .main4 h4 {
+        text-align: justify;
+        padding: 0 100px;
+        font-size: 25px;
+        color: white;
+        line-height: 75px;
+        font-weight: normal;
+        padding-bottom: 75px;
+    }
+    
+    .main4 .box-link {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(13, 38, 76, 1);
+        text-align: center;
+        width: 45%;
+        height: auto;
+        padding: 50px;    
+        font-size: 35px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px rgba(0, 0, 20, 1);
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .main4 .box-link:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        width: 46%;
+        padding: 55px;    
+        font-size: 37px;
+        border: 5px solid lightgray;
+        border-radius: 20px;
+    }
+}
+
+
 /* *************************************** MAIN 5 - MOBILE *********************************************** */
 
 .main5 {
@@ -550,14 +779,14 @@ main .banner h4 a:hover {
 
 .main5 h2 {
     text-align: center;
-    padding: 150px 30px 100px 30px;
+    padding: 150px 35px 100px 35px;
     font-size: 40px;
     color: white;
     line-height: 75px;
 }
 
 .slideshow {
-    max-width: 800px;
+    width: 80%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -589,7 +818,7 @@ main .banner h4 a:hover {
     color: #333;
     text-align: justify;
     padding: 0 35px;
-    font-size: 25px;
+    font-size: 27.5px;
 }
 
 .stars {
@@ -668,6 +897,95 @@ main .banner h4 a:hover {
     font-size: 47px;
     border: 5px solid lightgray;
     border-radius: 20px;
+}
+
+/* *************************************** MAIN 5 - TABLET *********************************************** */
+
+@media only screen and (min-width: 768px) {
+    
+    .main5 h2 {
+        font-size: 35px; /* Slightly smaller font size */
+        padding: 100px 20px 80px 20px; /* Adjust padding */
+        line-height: 65px;
+    }
+
+    .slideshow {
+        width: 90%; /* Slightly narrower */
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .slides {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        padding: 30px; /* Reduced padding */
+        background-color: rgba(155, 180, 255, 0.85);
+    }
+
+    .slide h3 {
+        font-size: 25px; /* Smaller heading font size */
+    }
+
+    .slide p {
+        font-size: 22px; /* Smaller paragraph font size */
+        line-height: 1.8; /* Adjusted line height */
+        padding: 0 20px; /* Reduced padding */
+    }
+
+    .stars {
+        font-size: 40px; /* Reduced star size */
+        margin: 10px 0;
+    }
+
+    .controls button {
+        padding: 20px; /* Slightly smaller buttons */
+        border-radius: 20%; /* Adjusted shape */
+        font-size: 20px;
+    }
+
+    .dots {
+        margin: 15px 0; /* Slightly larger spacing */
+    }
+
+    .dot {
+        width: 8px; /* Smaller dots */
+        height: 8px;
+    }
+
+    .dot.active {
+        background: #444; /* Slightly lighter active dot */
+    }
+    
+    .main5 .box-link {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(13, 38, 76, 1);
+        text-align: center;
+        width: 45%;
+        height: auto;
+        padding: 60px;
+        margin-top: 100px;
+        font-size: 35px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px rgba(0, 0, 20, 1);
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 65px;
+        transition: all 0.3s ease;
+    }
+
+    .main5 .box-link:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        width: 46%;
+        padding: 55px;    
+        font-size: 37px;
+        border: 5px solid lightgray;
+        border-radius: 20px;
+    }
 }
 
 
@@ -765,6 +1083,48 @@ main .banner h4 a:hover {
 
 
 
+/* *************************************** MAIN 6 - TABLET *********************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .main6 h2 {
+        font-size: 35px;
+        padding: 80px 0 40px 0;
+    }
+
+    .contact-form {
+        padding: 30px;
+        width: 70%;
+    }
+
+    .contact-form label {
+        font-size: 25px;
+        padding: 40px 0 10px 0;
+    }
+
+    .contact-form input {
+        height: 60px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 25px;
+    }
+
+    .contact-form button {
+        font-size: 30px;
+        padding: 20px;
+        width: 55%;
+    }
+
+    .contact-form button:hover {
+        font-size: 32px;
+        padding: 25px;
+        width: 57%;
+    }
+}
+
+
 
 /* *************************************** MAIN 7 - MOBILE *********************************************** */
 
@@ -850,6 +1210,58 @@ main .banner h4 a:hover {
 
 
 
+/* *************************************** MAIN 7 - MOBILE *********************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .main7 h2 {
+        font-size: 35px;
+        padding: 150px 20px 60px 20px;
+        color: seashell;
+        text-shadow: 3px 3px black;
+    }
+
+    .main7 .branch-box {
+        display: flex;
+        flex-direction: row; /* Arrange divs horizontally */
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 25px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main7 .branch-box .branches {
+        width: 50%; /* Adjust width for side-by-side layout */
+        padding: 30px;
+    }
+
+    .main7 .branch-box .branches h3 {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+
+    .main7 .branch-box .branches section {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .main7 .branch-box .branches section .google-maps-link {
+        font-size: 27.5px;
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .main7 .branch-box .branches section .google-maps-link:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        padding: 22px;
+        font-size: 28.5px;
+        line-height: 40px;
+    }
+}
+
+
+
 
 /* *************************************** FOOTER - MOBILE *********************************************** */
 
@@ -903,6 +1315,72 @@ footer .copyright {
     padding-bottom: 25px;
     font-size: 12.5px;
 }
+
+
+
+/* *************************************** FOOTER - MOBILE *********************************************** */
+
+
+@media only screen and (min-width: 768px) {
+   footer a img {
+        height: 75px;
+        padding: 75px;
+    }
+
+    footer nav ul {
+        padding: 10px 30px;
+    }
+
+    footer nav ul li {
+        padding: 40px 30px;
+    }
+
+    footer nav ul li a {
+        font-size: 30px;
+    }
+
+    footer nav ul li a:hover {
+        font-size: 32px;
+    }
+
+    footer .contact-footer p {
+        padding: 17.5px;
+        font-size: 20px;
+    }
+    
+    footer .copyright {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
