@@ -1,3 +1,5 @@
+//REVIEWS
+
 const slides = document.querySelector('.slides');
 const slide = document.querySelectorAll('.slide');
 const prev = document.getElementById('prev');
@@ -40,4 +42,14 @@ dots.forEach(dot => {
 function resetInterval() {
     clearInterval(interval);
     interval = setInterval(autoSlide, 3000);
+}
+
+
+
+//SMOOTH SCROLL
+function smoothScroll(event, target) {
+    event.preventDefault(); // Prevent default anchor behavior
+    document.querySelector(target).scrollIntoView({
+        behavior: 'smooth' // Smooth scrolling behavior
+    });
 }

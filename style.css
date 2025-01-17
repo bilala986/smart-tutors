@@ -105,6 +105,10 @@ input, select {
     color: seashell;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .arrow {
     padding: 0 20px 0 10px;
     color: white;
@@ -253,6 +257,47 @@ header nav ul li a:hover {
 
 
 
+/* *************************************** HEADER - TABLET *********************************************** */
+
+@media only screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header a img {
+        padding-left: 40px;
+        height: 75px;
+    }
+
+    header a img:hover {
+        height: 80px;
+    }
+
+    header nav {
+        margin-left: auto;
+    }
+
+    header nav ul {
+        margin-top: 55px;
+    }
+
+    header nav ul li {
+        padding: 0 25px;
+    }
+
+    header nav ul li a {
+        font-size: 25px;
+        color: #1A237E;
+        transition: all 0.3s ease; /* Smooth transition for size and color */
+    }
+
+    header nav ul li a:hover {
+        font-size: 27px;
+        color: darkred;
+    }
+}
+
 /* *************************************** BANNER - MOBILE *********************************************** */
 
 #background-video {
@@ -281,7 +326,7 @@ main .banner {
 }
 
 main .banner h1 {
-    padding: 15% 55px 0 0;
+    margin: 15% 55px 0 0;
     font-size: 65px;
     color: white;
     text-shadow: 5px 5px black;
@@ -289,10 +334,8 @@ main .banner h1 {
 
 main .banner h4 {
     margin: 30px 55px 0 55%;
-    padding: 15px;
-    background-color: rgba(0, 76, 153, 0.8);
+    padding: 0;
     border-radius: 10px;
-    box-shadow: 3px 3px darkblue;
     font-size: 30px;
     color: white;
     text-align: left;
@@ -300,12 +343,22 @@ main .banner h4 {
     transition: all 0.3s ease;
 }
 
-main .banner h4:hover {
+main .banner h4 a {
+    display: block; /* Make the anchor tag a block element */
+    padding: 15px; /* Add padding to the anchor tag */
+    background-color: rgba(0, 76, 153, 0.8); /* Same background as h4 */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px darkblue;
+}
+
+main .banner h4 a:hover {
     background-color: rgb(0, 51, 102);
     border-radius: 20px;
     font-size: 32px;
     box-shadow: 0px 0px;
-    
 }
 
 
@@ -630,7 +683,7 @@ main .banner h4:hover {
 .main6 h2 {
     text-align: center;
     padding: 150px 0 100px 0;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     line-height: 115px;
 }
@@ -663,7 +716,7 @@ main .banner h4:hover {
 .contact-form label{
     font-weight: 500;
     color: black;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .contact-form input,
@@ -672,7 +725,9 @@ main .banner h4:hover {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    font-size: 45px;
+    font-size: 40px;
+    color: black;
+    background-color: white;
 }
 
 .contact-form input:focus,
@@ -680,6 +735,8 @@ main .banner h4:hover {
     outline: none;
     border-color: #007BFF;
     box-shadow: 3px 3px rgba (0, 123, 255, 0.3);
+    color: black;
+    background-color: white;
 }
 
 .contact-form button {
@@ -690,7 +747,7 @@ main .banner h4:hover {
     padding: 50px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 45px;
     box-shadow: 4px 4px rgba(0, 0, 20, 1);
     width: 50%;
     transition: all 0.3s ease;
@@ -700,7 +757,7 @@ main .banner h4:hover {
     background-color: rgba(0, 76, 76, 0.3);
     width: 52%;
     padding: 65px;    
-    font-size: 42px;
+    font-size: 47px;
     border: 5px solid lightgray;
     border-radius: 20px;
 }
@@ -818,13 +875,13 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    font-size: 50px;
+    font-size: 45px;
     color: seashell;
     transition: all 0.3s ease; /* Smooth transition for size and color */
 }
 
 footer nav ul li a:hover {
-    font-size: 42px;
+    font-size: 47px;
     color: darkred;
 }
 
@@ -836,6 +893,7 @@ footer .contact-footer {
 
 footer .contact-footer p {
     padding: 20px;
+    font-size: 25px;
 }
 
 footer .copyright {
