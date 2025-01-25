@@ -113,6 +113,9 @@ html {
     color: white;
 }
 
+
+/* *************************************** BOX LINK - MOBILE ************************************** */
+
 .box-link {
     display: block;
     margin: 0 auto;
@@ -138,6 +141,28 @@ html {
     width: 56%;
     font-size: 20px;
     padding: 22px;
+}
+
+
+/* *************************************** BOX LINK - TABLET ************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .box-link {
+        width: 40%;
+        padding: 25px;
+        font-size: 20px;
+        line-height: 1.5em;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+    }
+
+    .box-link:hover {
+        border-radius: 17.5px;
+        width: 41%;
+        font-size: 22px;
+        padding: 27px;
+    }
 }
 
 
@@ -198,6 +223,13 @@ header nav ul li a:hover {
     color: darkred;
 }
 
+.nav-student,
+.nav-teacher,
+.nav-assessment {
+    display: none;
+}
+
+
 
 
 /* *************************************** HEADER - TABLET ***************************************** */
@@ -214,14 +246,11 @@ header nav ul li a:hover {
     header a img {
         height: 65px;
         padding: 10px;
+        margin-left: 10px;
     }
     
     header a img:hover {
         height: 67px;
-    }
-    
-    header nav {
-        
     }
     
     header nav ul {
@@ -240,6 +269,60 @@ header nav ul li a:hover {
     }
 }
 
+
+
+/* *************************************** HEADER - TABLET ***************************************** */
+
+
+@media only screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: #D6E4F0;
+        padding-bottom: 45px;
+    }
+
+    header a img {
+        height: 85px;
+        margin: 25px 0 10px 0;
+        transition: all 0.3s ease;
+    }
+
+    header a img:hover {
+        height: 87px;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    header nav ul li {
+        padding-top: 15px;
+    }
+
+    header nav ul li a {
+        font-size: 22.5px;
+        color: #1A237E;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+
+    header nav ul li a:hover {
+        font-size: 19.5px;
+        color: darkred;
+    }
+
+    .nav-student,
+    .nav-teacher,
+    .nav-assessment {
+        display: inline-block;
+    }
+}
 
 
 /* *************************************** BANNER - MOBILE ***************************************** */
@@ -295,6 +378,60 @@ header nav ul li a:hover {
 
 
 
+/* *************************************** BANNER - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .banner {
+        padding: 150px 0;
+        background-image: url(img/teaching1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner h1 {
+        margin: 0 50px 25px 0;
+        font-size: 35px;
+        color: white;
+        text-shadow: 5px 5px black;
+        text-align: right;
+    }
+
+    .banner h4 {
+        width: 35%;
+        padding: 0;
+        font-size: 17.5px;
+        color: white;
+        line-height: 30px;
+        text-align: right;
+        margin-left: auto;
+        margin-right: 50px;
+        transition: all 0.3s ease;
+    }
+
+    .banner h4 a {
+        display: block;
+        padding: 15px;
+        background-color: rgba(0, 76, 153, 0.8);
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px darkblue;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .banner h4 a:hover {
+        background-color: rgb(0, 51, 102, 0.9);
+        border-radius: 15px;
+        font-size: 17px;
+        box-shadow: 0 0;
+    }
+
+}
+
 
 
 /* *************************************** MAIN2 - MOBILE ***************************************** */
@@ -324,6 +461,28 @@ header nav ul li a:hover {
 
 
 
+/* *************************************** MAIN2 - TABLET ***************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .main2 {
+        background-color: rgba(55, 98, 166, 0.9);
+        padding-bottom: 45px;
+    }
+
+    .main2 h2 {
+        padding: 50px 0 30px 0;
+        font-size: 25px;
+    }
+
+    .main2 h4 {
+        padding: 0 50px;
+        font-size: 20px;
+        line-height: 2em;
+        padding-bottom: 40px;
+    }
+}
+
 
 
 
@@ -347,6 +506,23 @@ header nav ul li a:hover {
     color: white;
     text-shadow: 5px 5px black;
     padding: 50px 25px;
+}
+
+
+
+/* *************************************** IMAGE1 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image1 {
+        background-position: center;
+    }
+
+    .image1 h1 {
+        font-size: 30px;
+        line-height: 1.5em;
+        padding: 125px 25px;
+    }
+
 }
 
 
@@ -377,6 +553,30 @@ header nav ul li a:hover {
 
 
 
+/* *************************************** MAIN3 - TABLET ***************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .main3 {
+        background-color: rgba(55, 98, 166, 0.9);
+        padding-bottom: 45px;
+    }
+
+    .main3 h2 {
+        padding: 50px 0 30px 0;
+        font-size: 25px;
+    }
+
+    .main3 h4 {
+        padding: 0 50px;
+        font-size: 20px;
+        line-height: 2em;
+        padding-bottom: 40px;
+    }
+}
+
+
+
 /* *************************************** IMAGE2 - MOBILE ***************************************** */
 
 .image2 {
@@ -397,6 +597,24 @@ header nav ul li a:hover {
     color: #F0F8FF;
     text-shadow: 3px 3px black;
     padding: 50px 15px;
+}
+
+
+
+
+/* *************************************** IMAGE2 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image2 {
+        background-position: center;
+    }
+
+    .image2 h1 {
+        font-size: 30px;
+        line-height: 1.5em;
+        padding: 125px 25px;
+    }
+
 }
 
 
@@ -428,6 +646,27 @@ header nav ul li a:hover {
 }
 
 
+/* *************************************** MAIN4 - TABLET ***************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .main4 {
+        background-color: rgba(55, 98, 166, 0.9);
+        padding-bottom: 45px;
+    }
+
+    .main4 h2 {
+        padding: 50px 0 30px 0;
+        font-size: 25px;
+    }
+
+    .main4 h4 {
+        padding: 0 50px;
+        font-size: 20px;
+        line-height: 2em;
+        padding-bottom: 40px;
+    }
+}
 
 
 /* *************************************** IMAGE3 - MOBILE ***************************************** */
@@ -450,6 +689,23 @@ header nav ul li a:hover {
     color: #F0F8FF;
     text-shadow: 3px 3px black;
     padding: 75px 15px;
+}
+
+
+
+/* *************************************** IMAGE3 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image3 {
+        background-position: top;
+    }
+
+    .image3 h1 {
+        font-size: 30px;
+        line-height: 1.5em;
+        padding: 125px 25px;
+    }
+
 }
 
 
@@ -510,7 +766,7 @@ header nav ul li a:hover {
 
 .slide .stars {
     color: gold;
-    padding: 5px 0;
+    padding: 15px 0;
     font-size: 25px;
     text-align: center;
 }
@@ -561,6 +817,60 @@ header nav ul li a:hover {
 
 
 
+
+
+
+/* *************************************** MAIN5 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+
+    .main5 h2 {
+        padding: 50px 0 30px 0;
+        font-size: 25px;
+    }
+
+    .slideshow {
+        width: 85%;
+        border-radius: 15px;
+    }
+
+    .slides {
+        display: flex;
+        width: 100%; /* Ensures the slides container does not overflow */
+        transform: translateX(0); /* Correct initial position */
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        padding: 25px;
+    }
+
+    .slide h3 {
+        font-size: 22.5px;
+    }
+
+    .slide p {
+        line-height: 1.75em;
+        font-size: 20px;
+        padding: 0 40px;
+    }
+
+    .slide .stars {
+        padding: 25px 0;
+        font-size: 30px;
+    }
+
+    .controls button {
+        padding: 20px;
+        border-radius: 30%;
+    }
+}
+
+
+
+
+
+
 /* *************************************** IMAGE4 - MOBILE ***************************************** */
 
 .image4 {
@@ -584,6 +894,22 @@ header nav ul li a:hover {
 }
 
 
+
+
+/* *************************************** IMAGE4 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image4 {
+        background-position: top;
+    }
+
+    .image4 h1 {
+        font-size: 30px;
+        line-height: 1.5em;
+        padding: 125px 25px;
+    }
+
+}
 
 
 
@@ -684,7 +1010,7 @@ header nav ul li a:hover {
     display: block;
     margin: 0 auto;
     width: 80%;
-    background-color: #a2c6c6;
+    background-color: rgba(135, 158, 226, 0.9);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -698,9 +1024,9 @@ header nav ul li a:hover {
 
 .form-group label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: bold;
-  color: #2C5282;
+  color: #113b6f;
 }
 
 .form-group input,
@@ -710,6 +1036,7 @@ header nav ul li a:hover {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
+    margin-bottom: 20px;
   transition: border-color 0.3s ease;
 }
 
@@ -751,6 +1078,186 @@ textarea {
 
 
 
+
+
+
+
+
+
+
+/* *************************************** MAIN6 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .main6 {
+        padding-bottom: 75px;
+    }
+
+    .main6 h2 {
+        padding: 75px 0 50px 0;
+        font-size: 30px;
+    }
+    
+    .contact-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        gap: 5px;
+    }
+
+    .contact-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 30px;
+        width: 35%;
+        height: auto;
+        aspect-ratio: 1;
+        border-radius: 20%;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .contact-card:hover {
+        transform: translateY(-10px);
+        background-color: #00008B;
+        color: white;
+    }
+
+    .contact-card h3, .contact-card h5, .contact-card i {
+        padding: 10px 0;
+        transition: color 0.3s ease; /* Smooth text color transition */
+    }
+
+    .contact-card:hover h3,
+    .contact-card:hover h5,
+    .contact-card:hover i {
+        color: white; /* Text and icon color change to white */
+    }
+
+    .contact-card i {
+        background-color: darkblue;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        transition: all 0.3s ease;
+    }
+
+    .contact-card:hover i {
+        background-color: white; /* Icon background changes to white */
+        color: darkblue; /* Icon color changes to dark blue */
+        margin-bottom: 20px;
+        transform: scale(1.1);
+    }
+
+    .contact-card h3 {
+        font-size: 27.5px;
+        color: darkblue;
+    }
+
+    .contact-card h3:hover {
+        font-size: 31px;
+    }
+
+    .contact-card h5 {
+        font-size: 19px;
+        color: #3A6EA5;
+        font-weight: normal;
+        line-height: 1.75em;
+    }
+
+
+
+
+
+
+
+    .contact-form {
+        width: 75%;
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #113b6f;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 90%;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1rem;
+        margin-bottom: 20px;
+      transition: border-color 0.3s ease;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: #2C5282;
+      outline: none;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .submit-btn {
+        display: block;
+        margin: 0 auto;
+      background: #2C5282;
+      color: white;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+        font-size: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background: #1E3A8A;
+    }
+    
+    .submit-btn {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(13, 38, 76, 1);
+        text-align: center;
+        width: 55%;
+        height: auto;
+        padding: 20px;
+        font-size: 17.5px;
+        line-height: 1.5em;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px rgba (0, 0, 20, 1);
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .submit-btn:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        border: 3px solid lightgray;
+        border-radius: 15px;*/
+        width: 56%;
+        font-size: 20px;
+        padding: 22px;
+    }
+}
 
 
 
@@ -803,6 +1310,7 @@ textarea {
 .main7 .branch-box .branches h3 {
     font-size: 21px;
     padding-top: 30px;
+    line-height: 1.5em;
 }
 
 .main7 .branch-box .branches section {
@@ -842,6 +1350,42 @@ textarea {
 
 
 
+
+/* *************************************** MAIN7 - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .main7 {
+        background-position: right;
+        padding-bottom: 75px;
+    }
+
+    .main7 h2 {
+        font-size: 30px;
+    }
+
+    .main7 .branch-box .branches h3 {
+        font-size: 27.5px;
+    }
+    
+    .main7 .branch-box .branches section {
+        font-size: 22.5px;
+        padding: 10px;
+    }
+
+    .main7 .branch-box .branches section .google-maps-link {
+        font-size: 22.5px;
+        border-radius: 15px;
+        padding: 25px;
+        transition: all 0.3s ease;
+    }
+
+    .main7 .branch-box .branches section .google-maps-link:hover {
+        padding: 26px;    
+        font-size: 24.5px;
+        border-radius: 25px;
+    }
+
+}
 
 /* *************************************** FOOTER - MOBILE *********************************************** */
 
@@ -890,9 +1434,40 @@ footer .copyright {
 
 
 
+/* *************************************** FOOTER - MOBILE *********************************************** */
 
+@media only screen and (min-width: 768px) {
 
+    footer a img {
+        height: 75px;
+    }
 
+    footer nav ul  {
+        padding: 10px 17.5px;
+    }
+
+    footer nav ul li {
+        padding: 0 20px;
+    }
+
+    footer nav ul li a {
+        font-size: 22.5px;
+        color: seashell;
+        transition: all 0.3s ease;
+    }
+
+    footer nav ul li a:hover {
+        font-size: 18.5px;
+        color: lightcyan;
+    }
+
+    footer .copyright {
+        margin-top: 100px;
+        padding: 15px;
+        font-size: 17.5px;    
+    }
+
+}
 
 
 
