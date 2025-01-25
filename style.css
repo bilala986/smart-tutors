@@ -97,12 +97,11 @@ input, select {
 
 
 
-/* *************************************** MY CODE *************************************************** */
+/* *************************************** MY CODE - GENERAL ************************************** */
 
 * {
     text-decoration: none;
     font-family: 'Montserrat';
-    color: seashell;
 }
 
 html {
@@ -114,286 +113,35 @@ html {
     color: white;
 }
 
-
-/* *************************************** BETWEEN IMAGES - MOBILE *************************************** */
-
-/* IMAGE 1 */
-
-main .image1 {
-    height: 900px;
-    width: 100%;
-    background-image: url(img/teaching4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-
-main .image1 h1 {
-    text-align: center;
-    align-content: center;
-    font-size: 50px;
-    color: white;
-    text-shadow: 7px 7px black;
-    padding: 5% 50px 0 50px;
-}
-
-
-/* IMAGE 2 */
-
-main .image2 {
-    height: 900px;
-    width: 100%;
-    background-image: url(img/teaching6.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-
-main .image2 h1 {
-    text-align: center;
-    align-content: center;
-    font-size: 45px;
-    line-height: 75px;
-    color: white;
-    text-shadow: 7px 7px black;
-    padding: 10% 50px 0 50px;
-}
-
-
-/* IMAGE 3 */
-
-main .image3 {
-    height: 900px;
-    width: 100%;
-    background-image: url(img/teaching7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-
-main .image3 h1 {
-    text-align: center;
-    align-content: center;
-    font-size: 45px;
-    line-height: 75px;
-    color: white;
-    text-shadow: 7px 7px black;
-    padding: 10% 50px 0 50px;
-}
-
-
-/* IMAGE 4 */
-
-main .image4 {
-    height: 900px;
-    width: 100%;
-    background-image: url(img/teaching10.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-
-main .image4 h1 {
-    text-align: center;
-    align-content: center;
-    font-size: 45px;
-    line-height: 75px;
-    color: white;
-    text-shadow: 7px 7px black;
-    padding: 10% 50px 0 50px;
-}
-
-
-/* *************************************** BETWEEN IMAGES - MOBILE *************************************** */
-
-@media only screen and (min-width: 768px) {
-    /* IMAGE 1 */
-
-    main .image1 {
-        height: 500px;
-        width: 100%;
-        background-image: url(img/teaching4.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-    }
-
-    main .image1 h1 {
-        text-align: center;
-        align-content: center;
-        font-size: 45px;
-        color: white;
-        text-shadow: 7px 7px black;
-        padding: 10% 50px 0 50px;
-    }
-    
-    
-    
-    /* IMAGE 2 */
-
-    main .image2 {
-        height: 500px;
-        width: 100%;
-        background-image: url(img/teaching6.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-    }
-
-    main .image2 h1 {
-        text-align: center;
-        align-content: center;
-        font-size: 45px;
-        line-height: 75px;
-        color: white;
-        text-shadow: 7px 7px black;
-        padding: 0 50px;
-    }
-    
-    
-    /* IMAGE 3 */
-
-    main .image3 {
-        height: 500px;
-        width: 100%;
-        background-image: url(img/teaching7.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-    }
-
-    main .image3 h1 {
-        text-align: center;
-        align-content: center;
-        font-size: 45px;
-        line-height: 75px;
-        color: white;
-        text-shadow: 7px 7px black;
-        padding: 0 50px;
-    }
-    
-    
-    /* IMAGE 4 */
-
-    main .image4 {
-        height: 500px;
-        width: 100%;
-        background-image: url(img/teaching10.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-    }
-
-    main .image4 h1 {
-        text-align: center;
-        align-content: center;
-        font-size: 45px;
-        line-height: 75px;
-        color: white;
-        text-shadow: 7px 7px black;
-        padding: 0 50px 0 50px;
-    }
-
-}
-
-/* *************************************** HEADER - MOBILE *********************************************** */
-
-header {
-    width: 100%;
-    height: auto;
-    background-color: #D6E4F0;
-    padding-bottom: 50px;
-}
-
-header a img {
+.box-link {
     display: block;
     margin: 0 auto;
-    padding-top: 50px;
-    height: 125px;
+    background-color: rgba(13, 38, 76, 1);
+    text-align: center;
+    width: 55%;
+    height: auto;
+    padding: 20px;
+    font-size: 17.5px;
+    line-height: 1.5em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba (0, 0, 20, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
     transition: all 0.3s ease;
 }
 
-header a img:hover {
-    height: 130px;
-}
-
-header nav {
-    
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
-    padding: 10px 30px;
-}
-
-header nav ul li {
-    padding: 40px 35px;
-}
-
-header nav ul li a {
-    font-size: 40px;
-    color: #1A237E;
-    transition: all 0.3s ease; /* Smooth transition for size and color */
-}
-
-header nav ul li a:hover {
-    font-size: 42px;
-    color: darkred;
+.box-link:hover {
+    background-color: rgba(0, 76, 76, 0.3);
+    border: 3px solid lightgray;
+    border-radius: 15px;*/
+    width: 56%;
+    font-size: 20px;
+    padding: 22px;
 }
 
 
-
-/* *************************************** HEADER - TABLET *********************************************** */
-
-@media only screen and (min-width: 768px) {
-    header {
-        display: flex;
-        align-items: center;
-    }
-
-    header a img {
-        padding-left: 40px;
-        height: 75px;
-    }
-
-    header a img:hover {
-        height: 80px;
-    }
-
-    header nav {
-        margin-left: auto;
-    }
-
-    header nav ul {
-        margin-top: 55px;
-    }
-
-    header nav ul li {
-        padding: 0 25px;
-    }
-
-    header nav ul li a {
-        font-size: 25px;
-        color: #1A237E;
-        transition: all 0.3s ease; /* Smooth transition for size and color */
-    }
-
-    header nav ul li a:hover {
-        font-size: 27px;
-        color: darkred;
-    }
-}
-
-/* *************************************** BACKGROUND BODY *********************************************** */
+/* *************************************** BACKGROUND BODY ***************************************** */
 
 #background-video {
     position: fixed;
@@ -406,54 +154,142 @@ header nav ul li a:hover {
 }
 
 
+/* *************************************** HEADER - MOBILE ***************************************** */
 
-/* *************************************** BANNER - MOBILE *********************************************** */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #D6E4F0;
+    padding-bottom: 45px;
+}
 
-main .banner {
-    padding-top: 75px;
+header a img {
+    height: 55px;
+    margin: 25px 0 10px 0;
+    transition: all 0.3s ease;
+}
+
+header a img:hover {
+    height: 57px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    padding-top: 15px;
+}
+
+header nav ul li a {
+    font-size: 17.5px;
+    color: #1A237E;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    font-size: 19.5px;
+    color: darkred;
+}
+
+
+
+/* *************************************** HEADER - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px 17.5px 0;
+        
+    }
+    
+    header a img {
+        height: 65px;
+        padding: 10px;
+    }
+    
+    header a img:hover {
+        height: 67px;
+    }
+    
+    header nav {
+        
+    }
+    
+    header nav ul {
+        justify-content: flex-end;
+        padding-right: 25px;
+        gap: 15px;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    
+    header nav ul li a:hover {
+        font-size: 22px;
+    }
+}
+
+
+
+/* *************************************** BANNER - MOBILE ***************************************** */
+
+.banner {
+    padding: 75px 0;
     background-image: url(img/teaching1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 600px;
-    text-align: right;
+    height: auto;
 }
 
-main .banner h1 {
-    margin: 15% 55px 0 0;
-    font-size: 65px;
-    color: white;
-    text-shadow: 5px 5px black;
-}
-
-main .banner h4 {
-    margin: 30px 55px 0 55%;
-    padding: 0;
-    border-radius: 10px;
+.banner h1 {
+    margin: 0 0 25px 0;
     font-size: 30px;
     color: white;
-    text-align: left;
-    line-height: 40px;
-    transition: all 0.3s ease;
+    text-shadow: 5px 5px black;
+    text-align: center;
 }
 
-main .banner h4 a {
-    display: block; /* Make the anchor tag a block element */
-    padding: 15px; /* Add padding to the anchor tag */
-    background-color: rgba(0, 76, 153, 0.8); /* Same background as h4 */
+.banner h4 {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    padding: 0;
+    font-size: 17.5px;
     color: white;
-    text-decoration: none; /* Remove underline */
-    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
     transition: all 0.3s ease;
+}
+
+.banner h4 a {
+    display: block;
+    padding: 15px;
+    background-color: rgba(0, 76, 153, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
     box-shadow: 3px 3px darkblue;
+    transition: all 0.3s ease;
 }
 
-main .banner h4 a:hover {
-    background-color: rgb(0, 51, 102);
-    border-radius: 20px;
-    font-size: 32px;
-    box-shadow: 0px 0px;
+.banner h4 a:hover {
+    background-color: rgb(0, 51, 102, 0.9);
+    border-radius: 15px;
+    font-size: 17px;
+    box-shadow: 0 0;
 }
 
 
@@ -461,328 +297,177 @@ main .banner h4 a:hover {
 
 
 
+/* *************************************** MAIN2 - MOBILE ***************************************** */
 
-/* *************************************** MAIN 2 - MOBILE *********************************************** */
 
 .main2 {
     background-color: rgba(55, 98, 166, 0.9);
-    padding-bottom: 150px;
+    padding-bottom: 45px;
 }
 
 .main2 h2 {
     text-align: center;
-    padding: 150px 0 100px 0;
-    font-size: 40px;
+    padding: 50px 0 25px 0;
+    font-size: 22.5px;
     color: white;
 }
 
 .main2 h4 {
     text-align: justify;
-    padding: 0 100px;
-    font-size: 30px;
+    padding: 0 20px;
+    font-size: 17.5px;
     color: white;
-    line-height: 75px;
+    line-height: 30px;
     font-weight: normal;
-    padding-bottom: 75px;
+    padding-bottom: 30px;
 }
 
-.main2 .box-link {
-    display: block;
-    margin: 0 auto;
-    background-color: rgba(13, 38, 76, 1);
-    text-align: center;
-    width: 45%;
+
+
+
+
+
+/* *************************************** IMAGE1 - MOBILE ***************************************** */
+
+.image1 {
+    width: 100%;
     height: auto;
-    padding: 60px;    
-    font-size: 45px;
+    background-image: url(img/teaching4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.image1 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    line-height: 1.5em;
     color: white;
-    border-radius: 10px;
-    box-shadow: 4px 4px rgba(0, 0, 20, 1);
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: all 0.3s ease;
-}
-
-.main2 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.3);
-    width: 46%;
-    padding: 65px;    
-    font-size: 47px;
-    border: 5px solid lightgray;
-    border-radius: 20px;
+    text-shadow: 5px 5px black;
+    padding: 50px 25px;
 }
 
 
 
-
-
-
-/* *************************************** MAIN 2 - TABLET *********************************************** */
-
-@media only screen and (min-width: 768px) {
-    
-    .main2 h2 {
-        text-align: center;
-        padding: 150px 0 100px 0;
-        font-size: 35px;
-        color: white;
-    }
-
-    .main2 h4 {
-        text-align: justify;
-        padding: 0 100px;
-        font-size: 25px;
-        color: white;
-        line-height: 75px;
-        font-weight: normal;
-        padding-bottom: 75px;
-    }
-    
-    .main2 .box-link {
-        display: block;
-        margin: 0 auto;
-        background-color: rgba(13, 38, 76, 1);
-        text-align: center;
-        width: 45%;
-        height: auto;
-        padding: 50px;    
-        font-size: 35px;
-        color: white;
-        border-radius: 10px;
-        box-shadow: 4px 4px rgba(0, 0, 20, 1);
-        font-weight: bold;
-        letter-spacing: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .main2 .box-link:hover {
-        background-color: rgba(0, 76, 76, 0.3);
-        width: 46%;
-        padding: 55px;    
-        font-size: 37px;
-        border: 5px solid lightgray;
-        border-radius: 20px;
-    }
-}
-
-/* *************************************** MAIN 3 - MOBILE *********************************************** */
+/* *************************************** MAIN3 - MOBILE ***************************************** */
 
 .main3 {
     background-color: rgba(45, 78, 146, 0.9);
-    padding-bottom: 150px;
+    padding-bottom: 45px;
 }
 
 .main3 h2 {
     text-align: center;
-    padding: 150px 0 100px 0;
-    font-size: 40px;
+    padding: 50px 0 25px 0;
+    font-size: 22.5px;
     color: white;
 }
 
 .main3 h4 {
     text-align: justify;
-    padding: 0 100px;
-    font-size: 30px;
+    padding: 0 20px;
+    font-size: 17.5px;
     color: white;
-    line-height: 75px;
+    line-height: 30px;
     font-weight: normal;
-    padding-bottom: 75px;
+    padding-bottom: 30px;
 }
 
-.main3 .box-link {
-    display: block;
-    margin: 0 auto;
-    background-color: rgba(13, 38, 76, 1);
-    text-align: center;
-    width: 45%;
+
+
+/* *************************************** IMAGE2 - MOBILE ***************************************** */
+
+.image2 {
+    width: 100%;
     height: auto;
-    padding: 60px;    
-    font-size: 45px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 4px 4px rgba(0, 0, 20, 1);
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: all 0.3s ease;
+    background-image: url(img/teaching6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 
-.main3 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.3);
-    width: 46%;
-    padding: 65px;    
-    font-size: 47px;
-    border: 5px solid lightgray;
-    border-radius: 20px;
-}
-
-
-
-/* *************************************** MAIN 3 - TABLET *********************************************** */
-
-@media only screen and (min-width: 768px) {
-    
-    .main3 h2 {
-        text-align: center;
-        padding: 150px 0 100px 0;
-        font-size: 35px;
-        color: white;
-    }
-
-    .main3 h4 {
-        text-align: justify;
-        padding: 0 100px;
-        font-size: 25px;
-        color: white;
-        line-height: 75px;
-        font-weight: normal;
-        padding-bottom: 75px;
-    }
-    
-    .main3 .box-link {
-        display: block;
-        margin: 0 auto;
-        background-color: rgba(13, 38, 76, 1);
-        text-align: center;
-        width: 45%;
-        height: auto;
-        padding: 50px;    
-        font-size: 35px;
-        color: white;
-        border-radius: 10px;
-        box-shadow: 4px 4px rgba(0, 0, 20, 1);
-        font-weight: bold;
-        letter-spacing: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .main3 .box-link:hover {
-        background-color: rgba(0, 76, 76, 0.3);
-        width: 46%;
-        padding: 55px;    
-        font-size: 37px;
-        border: 5px solid lightgray;
-        border-radius: 20px;
-    }
+.image2 h1 {
+    text-align: left;
+    align-content: center;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #F0F8FF;
+    text-shadow: 3px 3px black;
+    padding: 50px 15px;
 }
 
 
 
 
-/* *************************************** MAIN 4 - MOBILE *********************************************** */
+/* *************************************** MAIN4 - MOBILE ***************************************** */
 
 .main4 {
     background-color: rgba(55, 98, 166, 0.9);
-    padding-bottom: 150px;
+    padding-bottom: 45px;
 }
 
 .main4 h2 {
     text-align: center;
-    padding: 150px 30px 100px 30px;
-    font-size: 40px;
+    padding: 50px 0 25px 0;
+    font-size: 22.5px;
     color: white;
-    line-height: 115px;
+    line-height: 1.5em;
 }
 
 .main4 h4 {
     text-align: justify;
-    padding: 0 100px;
-    font-size: 30px;
+    padding: 0 20px;
+    font-size: 17.5px;
     color: white;
-    line-height: 75px;
+    line-height: 30px;
     font-weight: normal;
-    padding-bottom: 75px;
+    padding-bottom: 30px;
 }
 
-.main4 .box-link {
-    display: block;
-    margin: 0 auto;
-    background-color: rgba(13, 38, 76, 1);
-    text-align: center;
-    width: 45%;
+
+
+
+/* *************************************** IMAGE3 - MOBILE ***************************************** */
+
+.image3 {
+    width: 100%;
     height: auto;
-    padding: 60px;    
-    font-size: 45px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 4px 4px rgba(0, 0, 20, 1);
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: all 0.3s ease;
+    background-image: url(img/teaching7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 
-.main4 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.3);
-    width: 46%;
-    padding: 65px;    
-    font-size: 47px;
-    border: 5px solid lightgray;
-    border-radius: 20px;
-}
-
-
-/* *************************************** MAIN 4 - TABLET *********************************************** */
-
-@media only screen and (min-width: 768px) {
-    
-    .main4 h2 {
-        text-align: center;
-        padding: 150px 30px 100px 30px;
-        font-size: 35px;
-        color: white;
-        line-height: 115px;
-    }
-
-    .main4 h4 {
-        text-align: justify;
-        padding: 0 100px;
-        font-size: 25px;
-        color: white;
-        line-height: 75px;
-        font-weight: normal;
-        padding-bottom: 75px;
-    }
-    
-    .main4 .box-link {
-        display: block;
-        margin: 0 auto;
-        background-color: rgba(13, 38, 76, 1);
-        text-align: center;
-        width: 45%;
-        height: auto;
-        padding: 50px;    
-        font-size: 35px;
-        color: white;
-        border-radius: 10px;
-        box-shadow: 4px 4px rgba(0, 0, 20, 1);
-        font-weight: bold;
-        letter-spacing: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .main4 .box-link:hover {
-        background-color: rgba(0, 76, 76, 0.3);
-        width: 46%;
-        padding: 55px;    
-        font-size: 37px;
-        border: 5px solid lightgray;
-        border-radius: 20px;
-    }
+.image3 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #F0F8FF;
+    text-shadow: 3px 3px black;
+    padding: 75px 15px;
 }
 
 
-/* *************************************** MAIN 5 - MOBILE *********************************************** */
+
+
+/* *************************************** MAIN5 - MOBILE ***************************************** */
 
 .main5 {
     background-color: rgba(45, 78, 146, 0.9);
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .main5 h2 {
     text-align: center;
-    padding: 150px 35px 100px 35px;
-    font-size: 40px;
+    padding: 50px 0 25px 0;
+    font-size: 22.5px;
     color: white;
-    line-height: 75px;
+    line-height: 1.5em;
 }
 
 .slideshow {
@@ -790,42 +475,44 @@ main .banner h4 a:hover {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background: #f9f9f9;
+    background-color: #A9BEFE;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 .slides {
     display: flex;
+    width: 100%; /* Ensures the slides container does not overflow */
+    transform: translateX(0); /* Correct initial position */
     transition: transform 0.5s ease-in-out;
 }
 
 .slide {
-    min-width: 100%;
-    padding: 50px;
+    flex: 0 0 100%; /* Each slide takes full width of the container */
     box-sizing: border-box;
-    background-color: rgba(155, 180, 255, 0.9);
+    padding: 20px;
 }
 
 .slide h3 {
     margin: 10px 0;
-    font-size: 30px;
-    color: rgb(0, 20, 75);
+    font-size: 19px;
+    color: rgb(0, 0, 75);
+    text-align: center;
 }
 
 .slide p {
-    line-height: 2;
-    color: #333;
+    line-height: 1.5em;
+    font-size: 17.5px;
     text-align: justify;
-    padding: 0 35px;
-    font-size: 27.5px;
+    padding: 0 25px;
+    color: #333;
 }
 
-.stars {
+.slide .stars {
     color: gold;
-    margin: 5px 0;
-    padding: 25px 0;
-    font-size: 50px;
+    padding: 5px 0;
+    font-size: 25px;
+    text-align: center;
 }
 
 .controls {
@@ -835,20 +522,18 @@ main .banner h4 a:hover {
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
+    pointer-events: none;
 }
 
 .controls button {
-    background: rgba(0, 0, 0, 0.5);
+    pointer-events: auto;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
-    padding: 25px;
+    padding: 10px;
     margin: 0 10px;
     cursor: pointer;
-    border-radius: 30%;
-}
-
-.controls button:hover {
-    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
 }
 
 .dots {
@@ -860,295 +545,240 @@ main .banner h4 a:hover {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: #ccc;
+    background-color: #ccc;
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
 }
 
 .dot.active {
-    background: #333;
+    background-color: #333;
+}
+
+.assessment {
+    margin-top: 50px;
 }
 
 
-.main5 .box-link {
-    display: block;
-    margin: 0 auto;
-    background-color: rgba(13, 38, 76, 1);
-    text-align: center;
-    width: 45%;
+
+/* *************************************** IMAGE4 - MOBILE ***************************************** */
+
+.image4 {
+    width: 100%;
     height: auto;
-    padding: 60px;
-    margin-top: 100px;
-    font-size: 45px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 4px 4px rgba(0, 0, 20, 1);
-    font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 65px;
-    transition: all 0.3s ease;
+    background-image: url(img/teaching10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 
-.main5 .box-link:hover {
-    background-color: rgba(0, 76, 76, 0.3);
-    width: 46%;
-    padding: 65px;    
-    font-size: 47px;
-    border: 5px solid lightgray;
-    border-radius: 20px;
-}
-
-/* *************************************** MAIN 5 - TABLET *********************************************** */
-
-@media only screen and (min-width: 768px) {
-    
-    .main5 h2 {
-        font-size: 35px; /* Slightly smaller font size */
-        padding: 100px 20px 80px 20px; /* Adjust padding */
-        line-height: 65px;
-    }
-
-    .slideshow {
-        width: 90%; /* Slightly narrower */
-        margin: 0 auto;
-        border-radius: 10px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .slides {
-        transition: transform 0.5s ease-in-out;
-    }
-
-    .slide {
-        padding: 30px; /* Reduced padding */
-        background-color: rgba(155, 180, 255, 0.85);
-    }
-
-    .slide h3 {
-        font-size: 25px; /* Smaller heading font size */
-    }
-
-    .slide p {
-        font-size: 22px; /* Smaller paragraph font size */
-        line-height: 1.8; /* Adjusted line height */
-        padding: 0 20px; /* Reduced padding */
-    }
-
-    .stars {
-        font-size: 40px; /* Reduced star size */
-        margin: 10px 0;
-    }
-
-    .controls button {
-        padding: 20px; /* Slightly smaller buttons */
-        border-radius: 20%; /* Adjusted shape */
-        font-size: 20px;
-    }
-
-    .dots {
-        margin: 15px 0; /* Slightly larger spacing */
-    }
-
-    .dot {
-        width: 8px; /* Smaller dots */
-        height: 8px;
-    }
-
-    .dot.active {
-        background: #444; /* Slightly lighter active dot */
-    }
-    
-    .main5 .box-link {
-        display: block;
-        margin: 0 auto;
-        background-color: rgba(13, 38, 76, 1);
-        text-align: center;
-        width: 45%;
-        height: auto;
-        padding: 60px;
-        margin-top: 100px;
-        font-size: 35px;
-        color: white;
-        border-radius: 10px;
-        box-shadow: 4px 4px rgba(0, 0, 20, 1);
-        font-weight: bold;
-        letter-spacing: 2px;
-        line-height: 65px;
-        transition: all 0.3s ease;
-    }
-
-    .main5 .box-link:hover {
-        background-color: rgba(0, 76, 76, 0.3);
-        width: 46%;
-        padding: 55px;    
-        font-size: 37px;
-        border: 5px solid lightgray;
-        border-radius: 20px;
-    }
+.image4 h1 {
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #F0F8FF;
+    text-shadow: 3px 3px black;
+    padding: 75px 15px;
 }
 
 
 
 
-/* *************************************** MAIN 6 - MOBILE *********************************************** */
+
+/* *************************************** MAIN6 - MOBILE ***************************************** */
 
 .main6 {
     background-color: rgba(55, 98, 166, 0.9);
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .main6 h2 {
     text-align: center;
-    padding: 150px 0 100px 0;
-    font-size: 50px;
+    padding: 50px 0 25px 0;
+    font-size: 22.5px;
     color: white;
-    line-height: 115px;
+    line-height: 1.5em;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background-color: rgba(135, 158, 226, 1);
-    padding: 50px;
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 25px;
+.contact-cards {
+    
 }
 
-.contact-form label, input, textarea, button {
+.contact-card {
     display: block;
     margin: 0 auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+    width: 60%;
+    border-radius: 20%;
     text-align: center;
-}
-
-.contact-form label {
-    padding: 75px 0 25px 0;
-}
-
-.contact-form input {
-    height: 100px;
-}
-
-.contact-form label{
-    font-weight: 500;
-    color: black;
-    font-size: 40px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 90%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    font-size: 40px;
-    color: black;
-    background-color: white;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: none;
-    border-color: #007BFF;
-    box-shadow: 3px 3px rgba (0, 123, 255, 0.3);
-    color: black;
-    background-color: white;
-}
-
-.contact-form button {
-    background-color: rgba(100, 115, 235, 1);
-    color: white;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    padding: 50px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 45px;
-    box-shadow: 4px 4px rgba(0, 0, 20, 1);
-    width: 50%;
     transition: all 0.3s ease;
 }
 
-.contact-form button:hover {
-    background-color: rgba(0, 76, 76, 0.3);
-    width: 52%;
-    padding: 65px;    
-    font-size: 47px;
-    border: 5px solid lightgray;
-    border-radius: 20px;
+.contact-card:hover {
+    transform: translateY(-10px);
+    background-color: #00008B;
+    color: white;
+}
+
+.contact-card h3, .contact-card h5, .contact-card i {
+    padding: 10px 0;
+    transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+.contact-card:hover h3,
+.contact-card:hover h5,
+.contact-card:hover i {
+    color: white; /* Text and icon color change to white */
+}
+
+.contact-card i {
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover i {
+    background-color: white; /* Icon background changes to white */
+    color: darkblue; /* Icon color changes to dark blue */
+    margin-bottom: 20px;
+    transform: scale(1.1);
+}
+
+.contact-card h3 {
+    font-size: 25px;
+    color: darkblue;
+}
+
+.contact-card h3:hover {
+    font-size: 25px;
+}
+
+.contact-card h5 {
+    font-size: 17.55px;
+    color: #3A6EA5;
+    font-weight: normal;
+}
+
+.address {
+    margin-top: 30px;
+}
+
+.hours h5 {
+    line-height: 1.5em;
 }
 
 
 
 
-/* *************************************** MAIN 6 - TABLET *********************************************** */
 
 
-@media only screen and (min-width: 768px) {
-    .main6 h2 {
-        font-size: 35px;
-        padding: 80px 0 40px 0;
-    }
+.contact-form {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #a2c6c6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
 
-    .contact-form {
-        padding: 30px;
-        width: 70%;
-    }
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
 
-    .contact-form label {
-        font-size: 25px;
-        padding: 40px 0 10px 0;
-    }
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2C5282;
+}
 
-    .contact-form input {
-        height: 60px;
-    }
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
 
-    .contact-form input,
-    .contact-form textarea {
-        font-size: 25px;
-    }
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2C5282;
+  outline: none;
+}
 
-    .contact-form button {
-        font-size: 30px;
-        padding: 20px;
-        width: 55%;
-    }
+textarea {
+  resize: none;
+}
 
-    .contact-form button:hover {
-        font-size: 32px;
-        padding: 25px;
-        width: 57%;
-    }
+.submit-btn {
+  background: #2C5282;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #1E3A8A;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .contact-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
 }
 
 
 
-/* *************************************** MAIN 7 - MOBILE *********************************************** */
+
+
+
+
+
+/* *************************************** MAIN7 - MOBILE ***************************************** */
+
 
 .main7 {
     background-image: url(img/location.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
-    padding-bottom: 150px;
+    background-position: center;
+    padding-bottom: 50px;
 }
 
 .main7 h2 {
     text-align: center;
-    padding: 250px 30px 100px 30px;
-    font-size: 50px;
-    color: rgba(35, 58, 126, 1);
-    line-height: 115px;
+    padding: 75px 0 50px 0;
+    font-size: 22.5px;
+    color: white;
 }
 
 .main7 .branch-box {
     display: flex;
-    flex-direction: column; /* Aligns the divs vertically */
-    align-items: center; /* Centers the items horizontally within the container */
-    gap: 30px; /* Adds space between the two divs */
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
     margin: 0 auto;
 }
 
@@ -1156,7 +786,7 @@ main .banner h4 a:hover {
     background-color: rgba(135, 158, 226, 0.9);
     height: auto;
     width: 80%;
-    padding: 50px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1164,101 +794,51 @@ main .banner h4 a:hover {
     text-align: center;
 }
 
-.main7 .branch-box .branches h3, h4 {
+.main7 .branch-box .branches h3,
+.main7 .branch-box .branches h4 {
     color: seashell;
-    text-align: center;    
+    text-align: center;
 }
 
 .main7 .branch-box .branches h3 {
-    font-size: 50px;
-    padding-top: 60px;
+    font-size: 21px;
+    padding-top: 30px;
 }
 
 .main7 .branch-box .branches section {
-    margin-top: 30px;
-    font-size: 35px;
-    padding: 50px;
+    font-size: 19px;
+    padding: 15px;
+    margin-top: 15px;
 }
 
 .main7 .branch-box .branches section h4 {
-    padding: 30px;
+    padding: 15px 10px;
+    font-weight: 500;
+    line-height: 1.5em;
 }
 
 .main7 .branch-box .branches section .google-maps-link {
     display: inline-block;
     text-align: center;
-    font-size: 40px;
+    font-size: 17.50px;
     color: #fff;
     font-weight: 500;
     background-color: rgba(100, 115, 235, 1);
-    padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    padding: 50px;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 30px;
     transition: all 0.3s ease;
 }
 
 .main7 .branch-box .branches section .google-maps-link:hover {
     background-color: rgba(0, 76, 76, 0.3);
-    padding: 55px;    
-    font-size: 42px;
+    padding: 21px;    
+    font-size: 18px;
     border: 5px solid lightgray;
     border-radius: 20px;
 }
 
-
-
-
-/* *************************************** MAIN 7 - MOBILE *********************************************** */
-
-
-@media only screen and (min-width: 768px) {
-    .main7 h2 {
-        font-size: 35px;
-        padding: 150px 20px 60px 20px;
-        color: seashell;
-        text-shadow: 3px 3px black;
-    }
-
-    .main7 .branch-box {
-        display: flex;
-        flex-direction: row; /* Arrange divs horizontally */
-        justify-content: space-between;
-        align-items: stretch;
-        gap: 25px;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .main7 .branch-box .branches {
-        width: 50%; /* Adjust width for side-by-side layout */
-        padding: 30px;
-    }
-
-    .main7 .branch-box .branches h3 {
-        font-size: 35px;
-        padding-top: 10px;
-    }
-
-    .main7 .branch-box .branches section {
-        font-size: 25px;
-        padding: 20px;
-    }
-
-    .main7 .branch-box .branches section .google-maps-link {
-        font-size: 27.5px;
-        padding: 20px;
-        transition: all 0.3s ease;
-    }
-    
-    .main7 .branch-box .branches section .google-maps-link:hover {
-        background-color: rgba(0, 76, 76, 0.3);
-        padding: 22px;
-        font-size: 28.5px;
-        line-height: 40px;
-    }
-}
 
 
 
@@ -1273,93 +853,39 @@ footer {
 footer a img {
     display: block;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
+    height: 50px;
 }
 
-footer nav ul {
+footer nav ul  {
     display: flex;
     justify-content: center;
-    padding: 10px 30px;
+    padding: 0 15px;
 }
 
 footer nav ul li {
-    padding: 40px 35px;
+    padding: 0 20px;
 }
 
 footer nav ul li a {
-    font-size: 45px;
+    font-size: 17.5px;
     color: seashell;
-    transition: all 0.3s ease; /* Smooth transition for size and color */
+    transition: all 0.3s ease;
 }
 
 footer nav ul li a:hover {
-    font-size: 47px;
-    color: darkred;
-}
-
-footer .contact-footer {
-    text-align: center;
-    padding: 50px;
-    margin-bottom: 100px;
-}
-
-footer .contact-footer p {
-    padding: 20px;
-    font-size: 25px;
+    font-size: 18.5px;
+    color: lightcyan;
 }
 
 footer .copyright {
     color: white;
-    text-align: center;
+    text-align: left;
     font-weight: normal;
-    padding-bottom: 25px;
-    font-size: 12.5px;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 12.5px;    
 }
-
-
-
-/* *************************************** FOOTER - MOBILE *********************************************** */
-
-
-@media only screen and (min-width: 768px) {
-   footer a img {
-        height: 75px;
-        padding: 75px;
-    }
-
-    footer nav ul {
-        padding: 10px 30px;
-    }
-
-    footer nav ul li {
-        padding: 40px 30px;
-    }
-
-    footer nav ul li a {
-        font-size: 30px;
-    }
-
-    footer nav ul li a:hover {
-        font-size: 32px;
-    }
-
-    footer .contact-footer p {
-        padding: 17.5px;
-        font-size: 20px;
-    }
-    
-    footer .copyright {
-        padding-bottom: 30px;
-    }
-}
-
-
-
-
-
-
-
-
 
 
 

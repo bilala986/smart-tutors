@@ -1,5 +1,3 @@
-//REVIEWS
-
 const slides = document.querySelector('.slides');
 const slide = document.querySelectorAll('.slide');
 const prev = document.getElementById('prev');
@@ -7,6 +5,7 @@ const next = document.getElementById('next');
 const dots = document.querySelectorAll('.dot');
 
 let currentIndex = 0;
+let totalSlides = slide.length;
 let interval = setInterval(autoSlide, 3000);
 
 function updateSlide(index) {
@@ -15,25 +14,25 @@ function updateSlide(index) {
 }
 
 function autoSlide() {
-    currentIndex = (currentIndex + 1) % slide.length;
+    currentIndex = (currentIndex + 1) % totalSlides;
     updateSlide(currentIndex);
 }
 
 prev.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slide.length) % slide.length;
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
     updateSlide(currentIndex);
     resetInterval();
 });
 
 next.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slide.length;
+    currentIndex = (currentIndex + 1) % totalSlides;
     updateSlide(currentIndex);
     resetInterval();
 });
 
 dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-        currentIndex = parseInt(dot.dataset.index);
+    dot.addEventListener('click', (event) => {
+        currentIndex = parseInt(event.target.dataset.index, 10);
         updateSlide(currentIndex);
         resetInterval();
     });
@@ -41,9 +40,8 @@ dots.forEach(dot => {
 
 function resetInterval() {
     clearInterval(interval);
-    interval = setInterval(autoSlide, 3000);
+    interval = setInterval(autoSlide, 5000);
 }
-
 
 
 //SMOOTH SCROLL
