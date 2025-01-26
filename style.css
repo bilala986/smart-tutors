@@ -313,7 +313,7 @@ header nav ul li a:hover {
     }
 
     header nav ul li a:hover {
-        font-size: 19.5px;
+        font-size: 24.5px;
         color: darkred;
     }
 
@@ -478,7 +478,7 @@ header nav ul li a:hover {
     .banner h4 a:hover {
         background-color: rgb(0, 51, 102, 0.9);
         border-radius: 15px;
-        font-size: 17px;
+        font-size: 26px;
         box-shadow: 0 0;
     }
 
@@ -1706,12 +1706,14 @@ textarea {
         font-size: 24.5px;
         border-radius: 25px;
     }
-
 }
 
 
 
-/* *************************************** MAIN7 - TABLET ***************************************** */
+
+
+
+/* *************************************** MAIN7 - LAPTOP ***************************************** */
 
 @media only screen and (min-width: 1024px) {
     .main7 h2 {
@@ -1747,6 +1749,12 @@ textarea {
         font-size: 20px;
         padding: 20px;
         border-radius: 10px;
+    }
+    
+    .main7 .branch-box .branches section .google-maps-link:hover {
+        padding: 22px;    
+        font-size: 22px;
+        border-radius: 20px;
     }
 }
 
@@ -1786,6 +1794,31 @@ footer nav ul li a:hover {
     color: lightcyan;
 }
 
+.footer-arrow {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15%;
+    display: block;
+    margin: 0 auto;
+    width: 7.5%;
+    margin-top: 25px;
+    transition: all 0.3 ease;
+}
+
+.footer-arrow:hover {
+    background-color: #0a88b2;
+    padding: 11px;
+    border-radius: 16%;
+    width: 8%;
+}
+
+.footer-arrow p {
+    color: rgba(15, 28, 76, 1);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 footer .copyright {
     color: white;
     text-align: left;
@@ -1798,7 +1831,7 @@ footer .copyright {
 
 
 
-/* *************************************** FOOTER - MOBILE *********************************************** */
+/* *************************************** FOOTER - TABLET *********************************************** */
 
 @media only screen and (min-width: 768px) {
 
@@ -1821,8 +1854,17 @@ footer .copyright {
     }
 
     footer nav ul li a:hover {
-        font-size: 18.5px;
+        font-size: 24.5px;
         color: lightcyan;
+    }
+    
+    
+    .footer-arrow {
+        margin-top: 50px;
+    }
+
+    .footer-arrow p {
+        font-size: 45px;
     }
 
     footer .copyright {
