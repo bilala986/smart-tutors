@@ -166,6 +166,21 @@ html {
 }
 
 
+/* *************************************** BOX LINK - LAPTOP L ************************************** */
+
+
+@media only screen and (min-width: 1440px) {
+    .box-link {
+        font-size: 22.5px;
+        line-height: 1.8em;
+    }
+
+    .box-link:hover {
+        font-size: 24px;
+    }
+}
+
+
 /* *************************************** BACKGROUND BODY ***************************************** */
 
 #background-video {
@@ -433,6 +448,20 @@ header nav ul li a:hover {
 }
 
 
+
+
+/* *************************************** BANNER - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 2000px) {
+    .wrapper {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+
+
 /* *************************************** BANNER - LAPTOP ***************************************** */
 
 @media only screen and (min-width: 1024px) {
@@ -515,6 +544,10 @@ header nav ul li a:hover {
     display: none;
 }
 
+.main2 .inbox-image1 {
+    display: none;
+}
+
 
 
 /* *************************************** MAIN2 - TABLET ***************************************** */
@@ -522,7 +555,6 @@ header nav ul li a:hover {
 
 @media only screen and (min-width: 768px) {
     .main2 {
-        background-color: rgba(55, 98, 166, 0.9);
         padding-bottom: 45px;
     }
 
@@ -553,7 +585,59 @@ header nav ul li a:hover {
         margin-bottom: 30px;
         border-radius: 5%;
     }
+    
+    .main2 h2 {
+        font-size: 30px;
+    }
+    
+    .main2 h4 {
+        font-size: 22.5px;
+    }
 }
+
+
+/* *************************************** MAIN2 - LAPTOP L ***************************************** */
+
+@media only screen and (min-width: 1440px) {
+    .main2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    .inbox-main2 {
+        flex: 1;
+    }
+    
+    .inbox-image1 {
+        display: block !important;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .inbox-image1 img {
+        max-width: 90%;
+        border-radius: 10px;
+        height: 600px;
+    }
+    
+    .main2 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .main2 h4 {
+        font-size: 22.5px;
+        text-align: justify;
+        line-height: 1.8em;
+    }
+}
+
+
 
 
 /* *************************************** IMAGE1 - MOBILE ***************************************** */
@@ -633,6 +717,10 @@ header nav ul li a:hover {
     padding-bottom: 30px;
 }
 
+.main3 .inbox-image2 {
+    display: none;
+}
+
 
 
 /* *************************************** MAIN3 - TABLET ***************************************** */
@@ -640,7 +728,6 @@ header nav ul li a:hover {
 
 @media only screen and (min-width: 768px) {
     .main3 {
-        background-color: rgba(55, 98, 166, 0.9);
         padding-bottom: 45px;
     }
 
@@ -672,6 +759,51 @@ header nav ul li a:hover {
         margin-top: 30px;
         margin-bottom: 30px;
         border-radius: 5%;
+    }
+}
+
+
+
+/* *************************************** MAIN3 - LAPTOP L ***************************************** */
+
+@media only screen and (min-width: 1440px) {
+    .main3 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    .inbox-main3 {
+        flex: 1;
+        padding-right: 30px;
+    }
+    
+    .inbox-image2 {
+        display: block !important;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .inbox-image2 img {
+        max-width: 90%;
+        border-radius: 10px;
+        height: 500px;
+        margin-top: 50px;
+    }
+    
+    .main3 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .main3 h4 {
+        font-size: 22.5px;
+        text-align: justify;
+        line-height: 1.8em;
     }
 }
 
@@ -721,7 +853,7 @@ header nav ul li a:hover {
 
 /* *************************************** IMAGE2 - LAPTOP ***************************************** */
 
-@media only screen and (min-width: 768px) {    
+@media only screen and (min-width: 1024px) {    
     .image2 {
         display: none;
     }
@@ -756,13 +888,16 @@ header nav ul li a:hover {
     padding-bottom: 30px;
 }
 
+.inbox-image3 {
+    display: none;
+}
+
 
 /* *************************************** MAIN4 - TABLET ***************************************** */
 
 
 @media only screen and (min-width: 768px) {
     .main4 {
-        background-color: rgba(55, 98, 166, 0.9);
         padding-bottom: 45px;
     }
 
@@ -796,6 +931,54 @@ header nav ul li a:hover {
         border-radius: 5%;
     }
 }
+
+
+
+
+/* *************************************** MAIN4 - LAPTOP L ***************************************** */
+
+@media only screen and (min-width: 1440px) {
+    .main4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        border-radius: 0;
+        padding-top: 20px;
+    }
+    
+    .inbox-main4 {
+        flex: 1;
+        padding-right: 0;
+    }
+    
+    .inbox-image3 {
+        display: block !important;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .inbox-image3 img {
+        max-width: 90%;
+        border-radius: 10px;
+        height: 500px;
+    }
+    
+    .main4 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .main4 h4 {
+        font-size: 22.5px;
+        text-align: justify;
+        line-height: 1.8em;
+    }
+}
+
+
 
 
 
@@ -844,7 +1027,7 @@ header nav ul li a:hover {
 
 /* *************************************** IMAGE3 - LAPTOP ***************************************** */
 
-@media only screen and (min-width: 768px) {    
+@media only screen and (min-width: 1024px) {    
     .image3 {
         display: none;
     }
@@ -1029,6 +1212,39 @@ header nav ul li a:hover {
 
 
 
+/* *************************************** MAIN5 - LAPTOP L ***************************************** */
+
+
+
+@media only screen and (min-width: 1440px) {
+    .main5 {
+        display: block;
+        margin: 0 auto;
+        width: 97.5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+    
+    .main5 h2 {
+        font-size: 30px;
+    }
+    
+    .slideshow {
+        width: 70%;
+        border-radius: 15px;
+    }
+    
+    .slide p {
+        line-height: 1.8em;
+        font-size: 22.5px;
+        padding: 0 60px;
+    }
+}
+
+
+
+
 /* *************************************** IMAGE4 - MOBILE ***************************************** */
 
 .image4 {
@@ -1072,7 +1288,7 @@ header nav ul li a:hover {
 
 /* *************************************** IMAGE4 - LAPTOP ***************************************** */
 
-@media only screen and (min-width: 768px) {    
+@media only screen and (min-width: 1024px) {    
     .image4 {
         display: none;
     }
@@ -1578,6 +1794,78 @@ textarea {
     }
 }
 
+
+
+
+
+/* *************************************** MAIN - LAPTOP L ***************************************** */
+
+@media only screen and (min-width: 1400px) {
+    .main6 {
+        width: 97.5%;
+        margin: 30px auto;
+        border-radius: 5%;
+    }
+    
+    .main6 .inbox-contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    /* Left side: Contact Cards */
+    
+    .contact-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
+        flex: 1;
+        margin-left: 40px;
+    }
+    
+    .contact-card {
+        width: 75%;
+        height: auto;
+        text-align: center;
+    }
+    
+    
+    /* Right side: Contact Form */
+    
+    .contact-form {
+        flex: 1;
+        width: 90%;
+        border-radius: 10px;
+        margin: 5px 50px 0 25px;
+        padding: 30px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .form-group label {
+        color: white;
+        font-size: 22.5px;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+    
+    .form-group input {
+        width: 80%;
+    }
+    
+    .form-group textarea {
+        width: 80%;
+    }
+}
 
 
 
