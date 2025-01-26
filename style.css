@@ -433,6 +433,58 @@ header nav ul li a:hover {
 }
 
 
+/* *************************************** BANNER - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 1024px) {
+    .banner {
+        padding: 150px 0;
+        background-image: url(img/teaching1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner h1 {
+        margin: 0 50px 30px 0;
+        font-size: 45px;
+        text-shadow: 5px 5px black;
+        text-align: right;
+    }
+
+    .banner h4 {
+        font-size: 25px;
+        color: white;
+        line-height: 35px;
+        text-align: right;
+        margin-left: auto;
+        margin-right: 50px;
+        transition: all 0.3s ease;
+    }
+
+    .banner h4 a {
+        display: block;
+        padding: 15px;
+        background-color: rgba(0, 76, 153, 0.8);
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px darkblue;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .banner h4 a:hover {
+        background-color: rgb(0, 51, 102, 0.9);
+        border-radius: 15px;
+        font-size: 17px;
+        box-shadow: 0 0;
+    }
+
+}
+
+
 
 /* *************************************** MAIN2 - MOBILE ***************************************** */
 
@@ -457,6 +509,10 @@ header nav ul li a:hover {
     line-height: 30px;
     font-weight: normal;
     padding-bottom: 30px;
+}
+
+.main2 .image1-laptop {
+    display: none;
 }
 
 
@@ -484,6 +540,20 @@ header nav ul li a:hover {
 }
 
 
+
+
+/* *************************************** MAIN2 - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 1024px) {
+    .main2 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+}
 
 
 /* *************************************** IMAGE1 - MOBILE ***************************************** */
@@ -524,6 +594,18 @@ header nav ul li a:hover {
     }
 
 }
+
+
+
+/* *************************************** IMAGE1 - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 1024px) {    
+    .image1 {
+        display: none;
+    }
+
+}
+
 
 
 
@@ -577,6 +659,24 @@ header nav ul li a:hover {
 
 
 
+
+/* *************************************** MAIN3 - LAPTOP ***************************************** */
+
+
+
+@media only screen and (min-width: 1024px) {
+    .main3 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+}
+
+
+
 /* *************************************** IMAGE2 - MOBILE ***************************************** */
 
 .image2 {
@@ -616,6 +716,17 @@ header nav ul li a:hover {
     }
 
 }
+
+
+
+/* *************************************** IMAGE2 - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image2 {
+        display: none;
+    }
+}
+
 
 
 
@@ -669,6 +780,25 @@ header nav ul li a:hover {
 }
 
 
+
+
+/* *************************************** MAIN4 - LAPTOP ***************************************** */
+
+
+
+@media only screen and (min-width: 1024px) {
+    .main4 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+}
+
+
+
 /* *************************************** IMAGE3 - MOBILE ***************************************** */
 
 .image3 {
@@ -706,6 +836,18 @@ header nav ul li a:hover {
         padding: 125px 25px;
     }
 
+}
+
+
+
+
+
+/* *************************************** IMAGE3 - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image3 {
+        display: none;
+    }
 }
 
 
@@ -869,6 +1011,22 @@ header nav ul li a:hover {
 
 
 
+/* *************************************** MAIN5 - LAPTOP ***************************************** */
+
+
+
+@media only screen and (min-width: 1024px) {
+    .main5 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+}
+
+
 
 
 /* *************************************** IMAGE4 - MOBILE ***************************************** */
@@ -910,6 +1068,17 @@ header nav ul li a:hover {
     }
 
 }
+
+
+/* *************************************** IMAGE4 - LAPTOP ***************************************** */
+
+@media only screen and (min-width: 768px) {    
+    .image4 {
+        display: none;
+    }
+}
+
+
 
 
 
@@ -981,10 +1150,6 @@ header nav ul li a:hover {
 .contact-card h3 {
     font-size: 25px;
     color: darkblue;
-}
-
-.contact-card h3:hover {
-    font-size: 25px;
 }
 
 .contact-card h5 {
@@ -1161,10 +1326,6 @@ textarea {
         color: darkblue;
     }
 
-    .contact-card h3:hover {
-        font-size: 31px;
-    }
-
     .contact-card h5 {
         font-size: 19px;
         color: #3A6EA5;
@@ -1262,6 +1423,163 @@ textarea {
 
 
 
+/* *************************************** MAIN6 - LAPTOP ***************************************** */
+
+
+
+@media only screen and (min-width: 1024px) {
+    .main6 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 5%;
+    }
+    
+    .contact-cards {
+        gap: 0px;
+    }
+
+    .contact-card {
+        flex: 1 1 calc(100% - 10px);
+        margin: 20px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 30%;
+        max-width: 285px;
+    }
+
+    .contact-card h3, .contact-card h5, .contact-card i {
+        padding: 8px 0;
+        transition: color 0.3s ease; /* Smooth text color transition */
+    }
+
+    .contact-card:hover h3,
+    .contact-card:hover h5,
+    .contact-card:hover i {
+        color: white; /* Text and icon color change to white */
+    }
+
+    .contact-card i {
+        background-color: darkblue;
+        color: white;
+        font-size: 18px;
+        padding: 12px;
+        border-radius: 50%;
+        margin-bottom: 12.5px;
+        transition: all 0.3s ease;
+    }
+
+    .contact-card:hover i {
+        background-color: white; /* Icon background changes to white */
+        color: darkblue; /* Icon color changes to dark blue */
+        margin-bottom: 15px;
+        transform: scale(1.1);
+    }
+
+    .contact-card h3 {
+        font-size: 25px;
+        color: darkblue;
+    }
+
+    .contact-card h5 {
+        font-size: 17.5px;
+        color: #3A6EA5;
+        font-weight: normal;
+        line-height: 1.75em;
+    }
+
+
+
+
+
+
+
+    .contact-form {
+        width: 75%;
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      color: #113b6f;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 90%;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1rem;
+        margin-bottom: 20px;
+      transition: border-color 0.3s ease;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: #2C5282;
+      outline: none;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .submit-btn {
+        display: block;
+        margin: 0 auto;
+      background: #2C5282;
+      color: white;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+        font-size: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background: #1E3A8A;
+    }
+    
+    .submit-btn {
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(13, 38, 76, 1);
+        text-align: center;
+        width: 55%;
+        height: auto;
+        padding: 20px;
+        font-size: 17.5px;
+        line-height: 1.5em;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 4px 4px rgba (0, 0, 20, 1);
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: all 0.3s ease;
+    }
+
+    .submit-btn:hover {
+        background-color: rgba(0, 76, 76, 0.3);
+        border: 3px solid lightgray;
+        border-radius: 15px;*/
+        width: 56%;
+        font-size: 20px;
+        padding: 22px;
+    }
+}
+
+
+
 
 /* *************************************** MAIN7 - MOBILE ***************************************** */
 
@@ -1325,6 +1643,10 @@ textarea {
     line-height: 1.5em;
 }
 
+.main7 .branch-box .branches section .long-address {
+    padding: 10px 10px;
+}
+
 .main7 .branch-box .branches section .google-maps-link {
     display: inline-block;
     text-align: center;
@@ -1386,6 +1708,48 @@ textarea {
     }
 
 }
+
+
+
+/* *************************************** MAIN7 - TABLET ***************************************** */
+
+@media only screen and (min-width: 1024px) {
+    .main7 h2 {
+        font-size: 35px;
+        text-shadow: 2px 2px black;
+    }
+    
+    .main7 .branch-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        gap: 30px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .main7 .branch-box .branches {
+        width: 40%;
+        padding: 25px;
+    }
+    
+    .main7 .branch-box .branches h3 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    
+    .main7 .branch-box .branches section {
+        font-size: 20px;
+    }
+    
+    .main7 .branch-box .branches section .google-maps-link {
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
 
 /* *************************************** FOOTER - MOBILE *********************************************** */
 
