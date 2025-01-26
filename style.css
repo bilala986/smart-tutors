@@ -623,6 +623,7 @@ header nav ul li a:hover {
         max-width: 90%;
         border-radius: 10px;
         height: 600px;
+        margin-top: 30px;
     }
     
     .main2 h2 {
@@ -636,6 +637,8 @@ header nav ul li a:hover {
         line-height: 1.8em;
     }
 }
+
+
 
 
 
