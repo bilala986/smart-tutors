@@ -2238,6 +2238,11 @@ footer .copyright {
     font-size: 12.5px;    
 }
 
+footer nav ul .nav-student,
+footer nav ul .nav-teacher {
+    display: none;
+}
+
 
 
 
@@ -2250,21 +2255,22 @@ footer .copyright {
     }
 
     footer nav ul  {
-        padding: 10px 17.5px;
+        padding: 10px 15px;
     }
 
     footer nav ul li {
-        padding: 0 20px;
+        padding: 0 0;
     }
 
     footer nav ul li a {
         font-size: 22.5px;
         color: seashell;
+        padding: 0 12.5px;
         transition: all 0.3s ease;
     }
 
     footer nav ul li a:hover {
-        font-size: 24.5px;
+        font-size: 23.5px;
         color: lightcyan;
     }
     
@@ -2282,7 +2288,17 @@ footer .copyright {
         padding: 15px;
         font-size: 17.5px;    
     }
-
+    
+    footer nav ul .nav-student,
+    footer nav ul .nav-teacher {
+        display: inline-block;
+    }
+    
+    .footer-courses,
+    .footer-student,
+    .footer-teacher {
+        border-left: 3px solid white;
+    }
 }
 
 

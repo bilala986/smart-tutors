@@ -1,0 +1,842 @@
+/*RESET STYLESHEET*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+/* *************************************** MY CODE - GENERAL ************************************** */
+
+* {
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+/* *************************************** BACKGROUND BODY ***************************************** */
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire background */
+    z-index: -1; /* Makes sure the video is behind other content */
+}
+
+
+/* *************************************** HEADER - MOBILE ***************************************** */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #D6E4F0;
+    padding-bottom: 0px;
+}
+
+header a img {
+    height: 55px;
+    margin: 25px 0 10px 0;
+    transition: all 0.3s ease;
+}
+
+header a img:hover {
+    height: 57px;
+}
+
+.menu-toggle {
+    margin-top: 15px;
+}
+
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #D6E4F0;
+    position: static;
+    top: 65px;
+    left: 30%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+    opacity: 0; /* Start invisible */
+    z-index: 1000; /* Ensure it covers all other elements */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fa-bars {
+    font-size: 20px;
+    color: darkblue;
+    padding: 10px;
+}
+
+.nav-menu.open {
+    display: flex;
+    max-height: 600px;
+    opacity: 1; /* Make visible */
+}
+
+/* Close Button */
+.menu-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #1A237E;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 20px auto 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.nav-menu ul li {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-menu ul li a {
+    font-size: 17.5px;
+    color: #1A237E;
+    transition: all 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+    font-size: 19.5px
+    color: darkred;
+}
+
+
+
+
+
+/* *************************************** HEADER - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px 17.5px 0;
+        position: relative;
+        
+    }
+    
+    header a img {
+        height: 65px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    
+    header a img:hover {
+        height: 67px;
+    }
+    
+    .nav-menu {
+        justify-content: flex-end;
+        padding-right: 25px;
+        gap: 15px;
+        left: 0;
+        right: auto;
+        top: 100px;
+        display: none;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .nav-menu.open {
+        display: flex; /* Show menu when it's toggled open */
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        opacity: 1;
+        transition: all 0.3s ease;
+    }
+    
+    .nav-menu ul {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+    
+    .nav-menu ul li a {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    
+    .nav-menu ul li a ul li a:hover {
+        font-size: 22px;
+    }
+}
+
+
+
+/* *************************************** HEADER - LAPTOP ***************************************** */
+
+
+@media only screen and (min-width: 1024px) {
+    .menu-toggle {
+        display: none; /* Hide the toggle button on laptops */
+    }
+
+    .nav-menu {
+        display: block; /* Ensure the navigation menu is visible */
+        justify-content: center;
+        align-items: center;
+        position: static; /* Remove fixed positioning */
+        opacity: 1; /* Ensure it's fully visible */
+        max-height: none; /* Allow full height */
+        padding: 0; /* Remove mobile-specific padding */
+        box-shadow: none; /* Remove any shadows if present */
+    }
+    
+    .menu-close {
+        display: none;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: #D6E4F0;
+        padding-bottom: 45px;
+    }
+
+    header a img {
+        height: 85px;
+        margin: 25px 0 10px 0;
+        transition: all 0.3s ease;
+    }
+
+    header a img:hover {
+        height: 87px;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-menu ul li {
+        display: inline-block;
+        padding-top: 0;
+    }
+
+    /* The following selectors will now directly target anchor elements (`a`) */
+    .nav-menu ul li a {
+        font-size: 22.5px; /* Updated font size for laptop version */
+        color: #1A237E;  /* Default color */
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+
+    /* Hover effect for the anchor elements */
+    .nav-menu ul li a:hover {
+        font-size: 24.5px; /* Hover font size */
+        color: darkred;  /* Hover color */
+    }
+
+    .nav-student,
+    .nav-teacher,
+    .nav-assessment {
+        display: inline-block;
+    }
+}
+
+
+
+
+/* *************************************** ABOUT US - MOBILE *************************************** */
+
+.about-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+
+
+/* *************************************** ABOUT US - TABLET *************************************** */
+
+@media only screen and (min-width: 768px) {
+    .about-title {
+        font-size: 32.5px;
+        padding: 60px 0 30px 0;
+    }
+}
+
+
+
+
+/* *************************************** BOX LINK - MOBILE ************************************** */
+
+.box-link {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(13, 38, 76, 1);
+    text-align: center;
+    width: 55%;
+    height: auto;
+    padding: 17.5px;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba (0, 0, 20, 1);
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.box-link:hover {
+    background-color: rgba(0, 76, 76, 0.3);
+    border: 3px solid lightgray;
+    border-radius: 15px;*/
+    width: 56%;
+    font-size: 16.5px;
+    padding: 19px;
+}
+
+
+/* *************************************** BOX LINK - TABLET ************************************** */
+
+
+@media only screen and (min-width: 768px) {
+    .box-link {
+        width: 40%;
+        padding: 20px;
+        font-size: 17.5px;
+        line-height: 1.5em;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+    }
+
+    .box-link:hover {
+        border-radius: 17.5px;
+        width: 41%;
+        font-size: 19px;
+        padding: 22px;
+    }
+}
+
+
+/* *************************************** BOX LINK - LAPTOP L ************************************** */
+
+
+@media only screen and (min-width: 1440px) {
+    .box-link {
+        font-size: 22.5px;
+        line-height: 1.8em;
+    }
+
+    .box-link:hover {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+/* *************************************** INTRO - MOBILE ***************************************** */
+
+.about-intro {
+    background-color: #6495ED;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.about-intro h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+
+.about-intro h4 {
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 1.5em;
+    font-size: 17.5px;
+    font-weight: normal;
+}
+
+
+
+/* *************************************** INTRO - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .about-intro {
+        display: block;
+        margin: 0 auto;
+        width: 97.5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+
+    .about-intro h2 {
+        font-size: 22.5px;
+        padding: 30px 0 20px 0;
+    }
+
+    .about-intro h4 {
+        padding: 0 40px;
+        line-height: 1.75em;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/* *************************************** UNIQUE - MOBILE ***************************************** */
+
+.about-unique {
+    background-color: #4AB3D1;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.about-unique h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+
+.about-unique h4 {
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 1.5em;
+    font-size: 17.5px;
+    font-weight: normal;
+}
+
+
+/* *************************************** UNIQUE - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .about-unique {
+        display: block;
+        margin: 0 auto;
+        width: 92.5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+
+    .about-unique h2 {
+        font-size: 22.5px;
+        padding: 30px 0 20px 0;
+    }
+
+    .about-unique h4 {
+        padding: 0 40px;
+        line-height: 1.75em;
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* *************************************** TEAM - MOBILE ***************************************** */
+
+.about-team {
+    background-color: #6495ED;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.about-team h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+
+.about-team h4 {
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 1.5em;
+    font-size: 17.5px;
+    font-weight: normal;
+}
+
+
+
+
+
+/* *************************************** TEAM - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .about-team {
+        display: block;
+        margin: 0 auto;
+        width: 92.5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+
+    .about-team h2 {
+        font-size: 22.5px;
+        padding: 30px 0 20px 0;
+    }
+
+    .about-team h4 {
+        padding: 0 40px;
+        line-height: 1.75em;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* *************************************** CHOOSE - MOBILE ***************************************** */
+
+.about-choose {
+    background-color: #4AB3D1;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.about-choose h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0 20px 0;
+}
+
+.about-choose h4 {
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 1.5em;
+    font-size: 17.5px;
+    font-weight: normal;
+}
+
+
+
+
+/* *************************************** CHOOSE - TABLET ***************************************** */
+
+@media only screen and (min-width: 768px) {
+    .about-choose {
+        display: block;
+        margin: 0 auto;
+        width: 97.5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 30px;
+    }
+
+    .about-choose h2 {
+        font-size: 22.5px;
+        padding: 30px 0 20px 0;
+    }
+
+    .about-choose h4 {
+        padding: 0 40px;
+        line-height: 1.75em;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/* *************************************** FOOTER - MOBILE ************************************* */
+
+footer {
+    background-color: rgba(15, 28, 76, 1);
+    height: auto;
+}
+
+footer a img {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 50px 30px 50px;
+    height: 50px;
+}
+
+footer nav ul  {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+footer nav ul li {
+    padding: 0 20px;
+}
+
+footer nav ul li a {
+    font-size: 17.5px;
+    color: seashell;
+    transition: all 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    font-size: 18.5px;
+    color: lightcyan;
+}
+
+.footer-arrow {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 15%;
+    display: block;
+    margin: 0 auto;
+    width: 7.5%;
+    margin-top: 25px;
+    transition: all 0.3 ease;
+}
+
+.footer-arrow:hover {
+    background-color: #0a88b2;
+    padding: 11px;
+    border-radius: 16%;
+    width: 8%;
+}
+
+.footer-arrow p {
+    color: rgba(15, 28, 76, 1);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer .copyright {
+    color: white;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 12.5px;    
+}
+
+footer nav ul .nav-student,
+footer nav ul .nav-teacher {
+    display: none;
+}
+
+
+
+
+/* *************************************** FOOTER - TABLET ******************************** */
+
+@media only screen and (min-width: 768px) {
+
+    footer a img {
+        height: 75px;
+    }
+
+    footer nav ul  {
+        padding: 10px 15px;
+    }
+
+    footer nav ul li {
+        padding: 0 0;
+    }
+
+    footer nav ul li a {
+        font-size: 22.5px;
+        color: seashell;
+        padding: 0 12.5px;
+        transition: all 0.3s ease;
+    }
+
+    footer nav ul li a:hover {
+        font-size: 23.5px;
+        color: lightcyan;
+    }
+    
+    
+    .footer-arrow {
+        margin-top: 50px;
+    }
+
+    .footer-arrow p {
+        font-size: 45px;
+    }
+
+    footer .copyright {
+        margin-top: 100px;
+        padding: 15px;
+        font-size: 17.5px;    
+    }
+    
+    footer nav ul .nav-student,
+    footer nav ul .nav-teacher {
+        display: inline-block;
+    }
+    
+    .footer-courses,
+    .footer-student,
+    .footer-teacher {
+        border-left: 3px solid white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

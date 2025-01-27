@@ -1,3 +1,27 @@
+
+//MENU
+
+const menuToggle = document.querySelector(".menu-toggle");
+const menuClose = document.querySelector(".menu-close");
+const navMenu = document.querySelector(".nav-menu");
+
+// Open menu
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.add("open");
+});
+
+// Close menu
+menuClose.addEventListener("click", () => {
+    navMenu.classList.remove("open");
+});
+
+
+
+
+
+
+//REVIEW SECTION
+
 const slides = document.querySelector('.slides');
 const slide = document.querySelectorAll('.slide');
 const prev = document.getElementById('prev');
@@ -44,6 +68,10 @@ function resetInterval() {
 }
 
 
+
+
+
+
 //SMOOTH SCROLL
 function smoothScroll(event, target) {
     event.preventDefault(); // Prevent default anchor behavior
@@ -57,19 +85,3 @@ function smoothScroll(event, target) {
 
 
 
-
-//MENU
-
-const menuToggle = document.querySelector(".menu-toggle");
-const menuClose = document.querySelector(".menu-close");
-const navMenu = document.querySelector(".nav-menu");
-
-// Open menu
-menuToggle.addEventListener("click", () => {
-    navMenu.classList.add("open");
-});
-
-// Close menu
-menuClose.addEventListener("click", () => {
-    navMenu.classList.remove("open");
-});
