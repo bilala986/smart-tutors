@@ -51,3 +51,25 @@ function smoothScroll(event, target) {
         behavior: 'smooth' // Smooth scrolling behavior
     });
 }
+
+
+
+
+
+
+
+//MENU
+
+const menuToggle = document.querySelector(".menu-toggle");
+const menuClose = document.querySelector(".menu-close");
+const navMenu = document.querySelector(".nav-menu");
+
+// Open menu
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.add("open");
+});
+
+// Close menu
+menuClose.addEventListener("click", () => {
+    navMenu.classList.remove("open");
+});

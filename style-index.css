@@ -216,6 +216,72 @@ header a img:hover {
     height: 57px;
 }
 
+
+.nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #D6E4F0;
+    position: fixed;
+    top: 65px;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+    opacity: 0; /* Start invisible */
+    z-index: 1000; /* Ensure it covers all other elements */
+}
+
+.nav-menu.open {
+    display: flex;
+    max-height: 300px;
+    opacity: 1; /* Make visible */
+}
+
+/* Close Button */
+.menu-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #1A237E;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 20px auto 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nav-menu ul li a {
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+    color: darkred;
+}
+
+
+
+
+
+
+
+/*
+
+
+
 header nav ul {
     display: flex;
     justify-content: center;
@@ -244,8 +310,7 @@ header nav ul li a:hover {
     display: none;
 }
 
-
-
+*/
 
 /* *************************************** HEADER - TABLET ***************************************** */
 
@@ -286,7 +351,7 @@ header nav ul li a:hover {
 
 
 
-/* *************************************** HEADER - TABLET ***************************************** */
+/* *************************************** HEADER - LAPTOP ***************************************** */
 
 
 @media only screen and (min-width: 1024px) {
