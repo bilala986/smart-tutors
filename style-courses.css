@@ -29,9 +29,7 @@ footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
-nav ul {
-    list-style:none;
-}
+
 
 blockquote, q {
     quotes:none;
@@ -100,7 +98,6 @@ input, select {
 /* *************************************** MY CODE - GENERAL ************************************** */
 
 * {
-    text-decoration: none;
     font-family: 'Montserrat';
 }
 
@@ -206,6 +203,7 @@ header a img:hover {
 .nav-menu ul li {
     text-align: center;
     padding: 10px 0;
+    list-style: none;
 }
 
 .nav-menu ul li a {
@@ -365,24 +363,489 @@ header a img:hover {
 
 
 
-/* *************************************** ABOUT US - MOBILE *************************************** */
 
-.about-title {
+
+
+
+
+
+
+
+
+/* *************************************** COURSES - MOBILE *************************************** */
+
+.courses-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 30px 0;
 }
 
 
 
-/* *************************************** ABOUT US - TABLET *************************************** */
+/* *************************************** KS1 - MOBILE *************************************** */
 
-@media only screen and (min-width: 768px) {
-    .about-title {
-        font-size: 32.5px;
-        padding: 60px 0 30px 0;
-    }
+.ks1 {
+    background-color: #3568A9;
+    color: white;
 }
+
+.ks1 .stage-heading {
+    text-align: center;
+    font-size: 23.5px;
+    padding: 30px 0;
+}
+
+.ks1 .stage-paragraph {
+    font-size: 17.5px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.ks1 .stage-subheading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 7.5px 20px 7.5px;
+    line-height: 1.5em;
+}
+
+.ks1 .stage-subjects {
+    padding-bottom: 5px;
+}
+
+.ks1 .list-heading {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    padding: 25px 10px 7.5px 15px;
+}
+
+.ks1 .stage-list li::before {
+    content: "";
+}
+
+.ks1 .stage-list {
+    padding: 15px 30px 10px 50px;
+}
+
+
+.ks1 .stage-list li {
+    list-style-type: square;
+    line-height: 1.5em;
+    padding: 5px 0; 
+}
+
+.ks1 .stage-conclusion {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** KS2 - MOBILE *************************************** */
+
+.ks2 {
+    background-color: #3882d9;
+    color: white;
+}
+
+.ks2 .stage-heading {
+    text-align: center;
+    font-size: 23.5px;
+    padding: 30px 0;
+}
+
+.ks2 .stage-paragraph {
+    font-size: 17.5px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.ks2 .stage-subheading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 7.5px 20px 7.5px;
+    line-height: 1.5em;
+}
+
+.ks2 .stage-subjects {
+    padding-bottom: 5px;
+}
+
+.ks2 .list-heading {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    padding: 25px 10px 7.5px 15px;
+}
+
+.ks2 .mini-list-heading {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px 7.5px 0 25px;
+}
+
+.ks2 .stage-list li::before {
+    content: "";
+}
+
+.ks2 .stage-list {
+    padding: 15px 30px 10px 50px;
+}
+
+
+.ks2 .stage-list li {
+    list-style-type: square;
+    line-height: 1.5em;
+    padding: 5px 0; 
+}
+
+.ks2 .stage-conclusion {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** KS3 - MOBILE *************************************** */
+
+.ks3 {
+    background-color: #4878BB;
+    color: white;
+}
+
+.ks3 .stage-heading {
+    text-align: center;
+    font-size: 23.5px;
+    padding: 30px 0;
+}
+
+.ks3 .stage-paragraph {
+    font-size: 17.5px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.ks3 .stage-subheading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 7.5px 20px 7.5px;
+    line-height: 1.5em;
+}
+
+.ks3 .stage-subjects {
+    padding-bottom: 5px;
+}
+
+.ks3 .list-heading {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    padding: 25px 10px 7.5px 15px;
+}
+
+.ks3 .mini-list-heading {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px 7.5px 0 25px;
+}
+
+.ks3 .stage-list li::before {
+    content: "";
+}
+
+.ks3 .stage-list {
+    padding: 15px 30px 10px 50px;
+}
+
+
+.ks3 .stage-list li {
+    list-style-type: square;
+    line-height: 1.5em;
+    padding: 5px 0; 
+}
+
+.ks3 .stage-conclusion {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** KS4 - MOBILE *************************************** */
+
+.ks4 {
+    background-color: #315ba7;
+    color: white;
+}
+
+.ks4 .stage-heading {
+    text-align: center;
+    font-size: 23.5px;
+    padding: 30px 0;
+}
+
+.ks4 .stage-paragraph {
+    font-size: 17.5px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.ks4 .stage-subheading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 7.5px 20px 7.5px;
+    line-height: 1.5em;
+}
+
+.ks4 .stage-subjects {
+    padding-bottom: 5px;
+}
+
+.ks4 .list-heading {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    padding: 25px 10px 7.5px 15px;
+}
+
+.ks4 .mini-list-heading {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px 7.5px 0 25px;
+}
+
+.ks4 .stage-list li::before {
+    content: "";
+}
+
+.ks4 .stage-list {
+    padding: 15px 30px 10px 50px;
+}
+
+
+.ks4 .stage-list li {
+    list-style-type: square;
+    line-height: 1.5em;
+    padding: 5px 0; 
+}
+
+.ks4 .stage-conclusion {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** ELEVEN PLUS - MOBILE ********************************* */
+
+.elevenplus {
+    background-color: #3B70B2;
+    color: white;
+}
+
+.elevenplus .stage-heading {
+    text-align: center;
+    font-size: 23.5px;
+    padding: 30px 0;
+}
+
+.elevenplus .stage-paragraph {
+    font-size: 17.5px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.elevenplus .stage-subheading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 7.5px 20px 7.5px;
+    line-height: 1.5em;
+}
+
+.elevenplus .stage-subjects {
+    padding-bottom: 5px;
+}
+
+.elevenplus .list-heading {
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: underline;
+    padding: 25px 10px 7.5px 15px;
+}
+
+.elevenplus .mini-list-heading {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 15px 7.5px 0 25px;
+}
+
+.elevenplus .stage-list li::before {
+    content: "";
+}
+
+.elevenplus .stage-list {
+    padding: 15px 30px 10px 50px;
+}
+
+
+.elevenplus .stage-list li {
+    list-style-type: square;
+    line-height: 1.5em;
+    padding: 5px 0; 
+}
+
+.elevenplus .stage-conclusion {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** SUMMARY - MOBILE ********************************* */
+
+.course-summary {
+    background-color: #558acc;
+    color: white;
+    padding-bottom: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.course-summary .stage-paragraph {
+    font-size: 17.5px;
+    font-weight: normal;
+    padding: 0 20px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.course-summary .stage-subheading {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 7.5px 20px 7.5px;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -396,16 +859,16 @@ header a img:hover {
     text-align: center;
     width: 55%;
     height: auto;
-    padding: 17.5px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 17.5px;
     line-height: 1.5em;
     color: white;
     border-radius: 10px;
     box-shadow: 4px 4px rgba (0, 0, 20, 1);
     font-weight: bold;
     letter-spacing: 2px;
+    text-decoration: none;
     margin-top: 30px;
-    margin-bottom: 20px;
     transition: all 0.3s ease;
 }
 
@@ -414,8 +877,8 @@ header a img:hover {
     border: 3px solid lightgray;
     border-radius: 15px;*/
     width: 56%;
-    font-size: 16.5px;
-    padding: 19px;
+    font-size: 20px;
+    padding: 22px;
 }
 
 
@@ -425,8 +888,8 @@ header a img:hover {
 @media only screen and (min-width: 768px) {
     .box-link {
         width: 40%;
-        padding: 20px;
-        font-size: 17.5px;
+        padding: 25px;
+        font-size: 20px;
         line-height: 1.5em;
         border-radius: 15px;
         transition: all 0.3s ease;
@@ -435,8 +898,8 @@ header a img:hover {
     .box-link:hover {
         border-radius: 17.5px;
         width: 41%;
-        font-size: 19px;
-        padding: 22px;
+        font-size: 22px;
+        padding: 27px;
     }
 }
 
@@ -459,345 +922,18 @@ header a img:hover {
 
 
 
-/* *************************************** INTRO - MOBILE ***************************************** */
 
-.about-intro {
-    background-color: #6495ED;
-    color: black;
-    padding-bottom: 30px;
-}
 
-.about-intro h2 {
-    text-align: center;
-    font-size: 20px;
-    padding: 30px 0 20px 0;
-}
 
-.about-intro h4 {
-    text-align: justify;
-    padding: 0 20px;
-    line-height: 1.5em;
-    font-size: 17.5px;
-    font-weight: normal;
-}
 
 
 
-/* *************************************** INTRO - TABLET ***************************************** */
 
-@media only screen and (min-width: 768px) {
-    .about-intro {
-        display: block;
-        margin: 0 auto;
-        width: 97.5%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border-radius: 30px;
-    }
 
-    .about-intro h2 {
-        font-size: 22.5px;
-        padding: 30px 0 20px 0;
-    }
 
-    .about-intro h4 {
-        padding: 0 40px;
-        line-height: 1.75em;
-        font-size: 20px;
-    }
-}
 
 
 
-
-/* *************************************** INTRO - TABLET ***************************************** */
-
-@media only screen and (min-width: 1440px) {
-    .about-intro h2 {
-        font-size: 27.5px;
-    }
-
-    .about-intro h4 {
-        font-size: 24px;
-    }
-}
-
-
-/* *************************************** UNIQUE - MOBILE ***************************************** */
-
-.about-unique {
-    background-color: #4AB3D1;
-    color: black;
-    padding-bottom: 30px;
-}
-
-.about-unique h2 {
-    text-align: center;
-    font-size: 20px;
-    padding: 30px 0 20px 0;
-}
-
-.about-unique h4 {
-    text-align: justify;
-    padding: 0 20px;
-    line-height: 1.5em;
-    font-size: 17.5px;
-    font-weight: normal;
-}
-
-.pic-unique {
-    display: none;
-}
-
-
-/* *************************************** UNIQUE - TABLET ***************************************** */
-
-@media only screen and (min-width: 768px) {
-    .about-unique {
-        display: block;
-        margin: 0 auto;
-        width: 92.5%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border-radius: 30px;
-    }
-
-    .about-unique h2 {
-        font-size: 22.5px;
-        padding: 30px 0 20px 0;
-    }
-
-    .about-unique h4 {
-        padding: 0 40px;
-        line-height: 1.75em;
-        font-size: 20px;
-    }
-}
-
-
-
-/* *************************************** UNIQUE - LAPTOP L ***************************************** */
-@media only screen and (min-width: 1440px) {
-    .about-unique {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 40px;
-        width: 90%;
-    }
-
-    .text-unique {
-        flex: 1;
-        padding-right: 20px;
-    }
-    
-    .about-unique h2 {
-        font-size: 27.5px;
-    }
-
-    .about-unique h4 {
-        font-size: 24px;
-    }
-
-    .pic-unique {
-        display: block;
-        flex: 1;
-        text-align: center;
-    }
-
-    .pic-unique img {
-        max-width: 90%;
-        border-radius: 15px;
-    }
-}
-
-
-/* *************************************** TEAM - MOBILE ***************************************** */
-
-.about-team {
-    background-color: #6495ED;
-    color: black;
-    padding-bottom: 30px;
-}
-
-.about-team h2 {
-    text-align: center;
-    font-size: 20px;
-    padding: 30px 0 20px 0;
-}
-
-.about-team h4 {
-    text-align: justify;
-    padding: 0 20px;
-    line-height: 1.5em;
-    font-size: 17.5px;
-    font-weight: normal;
-}
-
-.pic-team {
-    display: none;
-}
-
-
-
-/* *************************************** TEAM - TABLET ***************************************** */
-
-@media only screen and (min-width: 768px) {
-    .about-team {
-        display: block;
-        margin: 0 auto;
-        width: 92.5%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border-radius: 30px;
-    }
-
-    .about-team h2 {
-        font-size: 22.5px;
-        padding: 30px 0 20px 0;
-    }
-
-    .about-team h4 {
-        padding: 0 40px;
-        line-height: 1.75em;
-        font-size: 20px;
-    }
-}
-
-
-
-
-
-/* *************************************** TEAM - LAPTOP L ***************************************** */
-@media only screen and (min-width: 1440px) {
-    .about-team {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row-reverse; /* Reverse order: text on right, image on left */
-        padding: 40px;
-        width: 90%;
-    }
-
-    .text-team {
-        flex: 1;
-        padding-left: 20px;
-    }
-    
-    .about-team h2 {
-        font-size: 27.5px;
-    }
-
-    .about-team h4 {
-        font-size: 24px;
-    }
-
-    .pic-team {
-        display: block;
-        flex: 1;
-        text-align: center;
-    }
-
-    .pic-team img {
-        max-width: 90%;
-        border-radius: 15px;
-    }
-}
-
-
-
-
-
-/* *************************************** CHOOSE - MOBILE ***************************************** */
-
-.about-choose {
-    background-color: #4AB3D1;
-    color: black;
-    padding-bottom: 30px;
-}
-
-.about-choose h2 {
-    text-align: center;
-    font-size: 20px;
-    padding: 30px 0 20px 0;
-}
-
-.about-choose h4 {
-    text-align: justify;
-    padding: 0 20px;
-    line-height: 1.5em;
-    font-size: 17.5px;
-    font-weight: normal;
-}
-
-.pic-choose {
-    display: none;
-}
-
-
-/* *************************************** CHOOSE - TABLET ***************************************** */
-
-@media only screen and (min-width: 768px) {
-    .about-choose {
-        display: block;
-        margin: 0 auto;
-        width: 97.5%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        border-radius: 30px;
-    }
-
-    .about-choose h2 {
-        font-size: 22.5px;
-        padding: 30px 0 20px 0;
-    }
-
-    .about-choose h4 {
-        padding: 0 40px;
-        line-height: 1.75em;
-        font-size: 20px;
-    }
-}
-
-
-
-
-
-
-/* *************************************** CHOOSE - LAPTOP L ***************************************** */
-@media only screen and (min-width: 1440px) {
-    .about-choose {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 40px;
-        width: 90%;
-    }
-
-    .text-choose {
-        flex: 1;
-        padding-right: 20px;
-    }
-    
-    .about-choose h2 {
-        font-size: 27.5px;
-    }
-
-    .about-choose h4 {
-        font-size: 24px;
-    }
-
-    .pic-choose {
-        display: block;
-        flex: 1;
-        text-align: center;
-    }
-
-    .pic-choose img {
-        max-width: 90%;
-        border-radius: 15px;
-    }
-}
 
 
 
@@ -824,6 +960,7 @@ footer nav ul  {
 
 footer nav ul li {
     padding: 0 20px;
+    list-style: none;
 }
 
 footer nav ul li a {
@@ -933,27 +1070,6 @@ footer nav ul .nav-teacher {
         border-left: 3px solid white;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
