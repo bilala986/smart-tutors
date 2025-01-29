@@ -293,32 +293,6 @@ header a img:hover {
 
 
 
-
-/*
-
-header nav ul li {
-    padding-top: 15px;
-}
-
-header nav ul li a {
-    font-size: 17.5px;
-    color: #1A237E;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-}
-
-header nav ul li a:hover {
-    font-size: 19.5px;
-    color: darkred;
-}
-
-.nav-student,
-.nav-teacher,
-.nav-assessment {
-    display: none;
-}
-
-
 /* *************************************** HEADER - TABLET ***************************************** */
 
 @media only screen and (min-width: 768px) {
@@ -451,11 +425,10 @@ header nav ul li a:hover {
         color: darkred;  /* Hover color */
     }
 
-    .nav-student,
-    .nav-teacher,
-    .nav-assessment {
-        display: inline-block;
+    header .nav-menu ul .nav-assessment {
+        display: none;
     }
+
 }
 
 

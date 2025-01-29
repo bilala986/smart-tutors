@@ -207,6 +207,7 @@ header a img:hover {
 }
 
 .nav-menu ul li a {
+    text-decoration: none;
     font-size: 17.5px;
     color: #1A237E;
     transition: all 0.3s ease;
@@ -352,11 +353,9 @@ header a img:hover {
         font-size: 24.5px; /* Hover font size */
         color: darkred;  /* Hover color */
     }
-
-    .nav-student,
-    .nav-teacher,
-    .nav-assessment {
-        display: inline-block;
+    
+    header .nav-menu ul .nav-assessment {
+        display: none;
     }
 }
 
@@ -379,6 +378,89 @@ header a img:hover {
     font-size: 25px;
     padding: 30px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** SUBJECT NAV - MOBILE ********************************* */
+
+.subject-nav {
+    width: 90%;
+    background-color: #40cfe2;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.subject-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.subject-nav ul li {
+    padding: 30px 0;
+    list-style: none;
+}
+
+.subject-nav ul li a {
+    background-color: #1212d6;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20%;
+    box-shadow: 2px 2px black;
+    transition: all 0.3s ease;
+}
+
+.subject-nav ul li a:hover {
+    background-color: #090995;
+    text-decoration: underline;
+    padding: 13px;
+    border-radius: 22%;
+}
+
+
+
+
+
+
+/* *************************************** SUBJECT NAV - LAPTOP ********************************* */
+
+@media only screen and (min-width: 1024px) {
+    .subject-nav {
+        width: 70%;
+        border-radius: 5%;
+        padding: 30px 0;
+    }
+
+    .subject-nav ul li {
+        padding: 40px 0;
+    }
+
+    .subject-nav ul li a {
+        padding: 25px;
+        border-radius: 20%;
+    }
+
+    .subject-nav ul li a:hover {
+        padding: 30px;
+    }
+}
+
+
+
 
 
 
@@ -443,8 +525,64 @@ header a img:hover {
 
 
 
+/* ***************************** KS1/KS2/KS3/KS4/ELEVENPLUS - TABLET ***************************** */
+
+@media only screen and (min-width: 768px) {
+    .ks1,
+    .ks2,
+    .ks3,
+    .ks4,
+    .elevenplus {
+        padding: 20px;
+    }
+}
 
 
+
+/* ***************************** KS1 - LAPTOP ***************************** */
+
+@media only screen and (min-width: 1024px) {
+    .ks1 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5%;
+    }
+    
+    .ks1 .stage-heading {
+        text-align: center;
+        font-size: 27.5px;
+        padding: 32.5px 0;
+    }
+
+    .ks1 .stage-paragraph {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks1 .stage-subheading {
+        font-size: 23.5px;
+    }
+
+    .ks1 .list-heading {
+        font-size: 21.5px;
+    }
+
+    .ks1 .mini-list-heading {
+        font-size: 17.5px;
+    }
+
+    .ks1 .stage-list li {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks1 .stage-conclusion {
+        padding-bottom: 40px;
+    }  
+}
 
 
 
@@ -524,6 +662,51 @@ header a img:hover {
 
 
 
+
+/* ***************************** KS2 - LAPTOP ***************************** */
+
+@media only screen and (min-width: 1024px) {
+    .ks2 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5%;
+    }
+    
+    .ks2 .stage-heading {
+        text-align: center;
+        font-size: 27.5px;
+        padding: 32.5px 0;
+    }
+
+    .ks2 .stage-paragraph {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks2 .stage-subheading {
+        font-size: 23.5px;
+    }
+
+    .ks2 .list-heading {
+        font-size: 21.5px;
+    }
+
+    .ks2 .mini-list-heading {
+        font-size: 17.5px;
+    }
+
+    .ks2 .stage-list li {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks2 .stage-conclusion {
+        padding-bottom: 40px;
+    }  
+}
 
 
 
@@ -615,6 +798,64 @@ header a img:hover {
 
 
 
+/* ***************************** KS3 - LAPTOP ***************************** */
+
+@media only screen and (min-width: 1024px) {
+    .ks3 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5%;
+    }
+    
+    .ks3 .stage-heading {
+        text-align: center;
+        font-size: 27.5px;
+        padding: 32.5px 0;
+    }
+
+    .ks3 .stage-paragraph {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks3 .stage-subheading {
+        font-size: 23.5px;
+    }
+
+    .ks3 .list-heading {
+        font-size: 21.5px;
+    }
+
+    .ks3 .mini-list-heading {
+        font-size: 17.5px;
+    }
+
+    .ks3 .stage-list li {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks3 .stage-conclusion {
+        padding-bottom: 40px;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -690,6 +931,64 @@ header a img:hover {
 .ks4 .stage-conclusion {
     padding-bottom: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************** KS4 - LAPTOP ***************************** */
+
+@media only screen and (min-width: 1024px) {
+    .ks4 {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5%;
+    }
+    
+    .ks4 .stage-heading {
+        text-align: center;
+        font-size: 27.5px;
+        padding: 32.5px 0;
+    }
+
+    .ks4 .stage-paragraph {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks4 .stage-subheading {
+        font-size: 23.5px;
+    }
+
+    .ks4 .list-heading {
+        font-size: 21.5px;
+    }
+
+    .ks4 .mini-list-heading {
+        font-size: 17.5px;
+    }
+
+    .ks4 .stage-list li {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .ks4 .stage-conclusion {
+        padding-bottom: 40px;
+    }  
+}
+
+
+
 
 
 
@@ -792,6 +1091,64 @@ header a img:hover {
 
 
 
+/* ***************************** ELEVENPLUS - LAPTOP ***************************** */
+
+@media only screen and (min-width: 1024px) {
+    .elevenplus {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5%;
+    }
+    
+    .elevenplus .stage-heading {
+        text-align: center;
+        font-size: 27.5px;
+        padding: 32.5px 0;
+    }
+
+    .elevenplus .stage-paragraph {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .elevenplus .stage-subheading {
+        font-size: 23.5px;
+    }
+
+    .elevenplus .list-heading {
+        font-size: 21.5px;
+    }
+
+    .elevenplus .mini-list-heading {
+        font-size: 17.5px;
+    }
+
+    .elevenplus .stage-list li {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .elevenplus .stage-conclusion {
+        padding-bottom: 40px;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -828,6 +1185,48 @@ header a img:hover {
     padding: 30px 7.5px 20px 7.5px;
     line-height: 1.5em;
 }
+
+
+
+
+
+
+
+
+
+/* ***************************** SUMMARY - LAPTOP ***************************** */
+
+@media only screen and (min-width: 1024px) {
+    .course-summary {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 25px;
+        border-radius: 5%;
+    }
+    
+    .course-summary .stage-heading {
+        text-align: center;
+        font-size: 27.5px;
+        padding: 32.5px 0;
+    }
+
+    .course-summary .stage-paragraph {
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+
+    .course-summary .stage-subheading {
+        font-size: 23.5px;
+    }
+}
+
+
+
+
+
 
 
 

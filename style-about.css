@@ -355,10 +355,8 @@ header a img:hover {
         color: darkred;  /* Hover color */
     }
 
-    .nav-student,
-    .nav-teacher,
-    .nav-assessment {
-        display: inline-block;
+    header .nav-menu ul .nav-assessment {
+        display: none;
     }
 }
 
